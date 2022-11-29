@@ -20,7 +20,7 @@ public class LoginStep{
 	private LoginPage login;
 	public LoginStep(ContextUI context)
 	{
-		System.out.println("******LoginStep*******");
+		System.out.println("*****LoginStep******");
 		this.contextUI = context;
 		login = contextUI.getPageObjectManager().getLoginPage();
 	}
