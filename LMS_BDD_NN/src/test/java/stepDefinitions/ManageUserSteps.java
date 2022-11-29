@@ -8,9 +8,7 @@ import org.testng.Assert;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageObjects.LoginPage;
-import pageObjects.ProgramPage;
-
+import pageObjects.ManageUserPage;
 import utilities.ContextUI;
 
 public class ManageUserSteps
@@ -22,13 +20,11 @@ public class ManageUserSteps
 	{
 		System.out.println("******ManageUserSteps*******");
 		this.contextUI = context;
-		login = contextUI.getPageObjectManager().getLoginPage();
-		program = contextUI.getPageObjectManager().getProgramPage();
+		userobj = contextUI.getPageObjectManager().getManageUserPage();
 	}
 	 
 	@Given("User Logged on to LMS website")
 	public void user_logged_on_to_lms_website() {
-		  userobj = new ManageUserPage (driver) ;
 	       System.out.println("User is on Home page"); 
 	}
 
@@ -371,7 +367,7 @@ public class ManageUserSteps
 
 	@Then("User sees Success message  {string}  is  Should be Saved.")
 	public void user_sees_success_message_is_should_be_saved(String string) {
-		String actual_msg=driver.findElement(By.xpath("//*[@id=usersuccessmsg")).getText();
+		String actual_msg=contextUI.getDriver().findElement(By.xpath("//*[@id=usersuccessmsg")).getText();
 		String expected_msg="User details saved Successfully";
 		Assert.assertEquals(actual_msg, expected_msg);
 		System.out.println("User details saved Successfully");
@@ -447,7 +443,7 @@ public class ManageUserSteps
 
 	@Then("User should see the input field with Label {string}")
 	public void user_should_see_the_input_field_with_label(String string) {
-		String inputfield=driver.findElement(By.id("inputlabel")).getText();
+		String inputfield=contextUI.getDriver().findElement(By.id("inputlabel")).getText();
 		System.out.println(inputfield);
 	    
 	}

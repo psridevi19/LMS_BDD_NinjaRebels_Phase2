@@ -12,8 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+
 
 import utilities.LoggerClass;
 import utilities.ReadConfig;
@@ -85,7 +84,7 @@ public class BaseClass {
 		System.out.println("*******openUrl completed*******");
 	}
 	
-	@AfterClass
+	//@AfterClass
 	public void tearDown()
 	{
 		driver.quit();

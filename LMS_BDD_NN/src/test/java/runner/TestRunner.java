@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		monochrome = true, // console output
 		dryRun = false,
 	 //tags = "@Batch", //tags from feature file
-		publish = true, 
+		//publish = true, 
 		features = { "Features" }, // location of feature files
 		glue = "classpath:stepDefinitions") // location of step definition files
 

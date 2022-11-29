@@ -20,9 +20,10 @@ import utilities.UtilString;
 
 
 public class AssignmentSteps {
+	private WebDriver driver;
 	private AssignmentPage assign;
 	private ContextUI contextUI;
-	private WebDriver driver;
+
 	public AssignmentSteps(ContextUI context)
 	{
 		LoggerClass.info("******AssignmentSteps*******");

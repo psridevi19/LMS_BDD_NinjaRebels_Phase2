@@ -19,33 +19,33 @@ public class BatchAdminStep {
 		
 		public BatchAdminStep(ContextUI context)
 		{
-			System.out.println("******BatchAdminStep*******");
+			System.out.println("******BatchBatchAdminStep*******");
 			this.contextUI = context;
 			batchObj1 = contextUI.getPageObjectManager().getBatchPage();
 		}
 		
 
 
-		/* Scenario 26 - Admin Validate Add A New Batch button */
-		@Given("Admin Logged on to LMS Website")
-		public void admin_logged_on_to_lms_website() 
+		/* Scenario 26 - BatchAdmin Validate Add A New Batch button */
+		@Given("BatchAdmin Logged on to LMS Website")
+		public void BatchAdmin_logged_on_to_lms_website() 
 		{
-			LoggerClass.info("Admin logged on LMS website");
+			LoggerClass.info("BatchAdmin logged on LMS website");
 		}
-		@Given("Admin is on Manage Batch page")
-		public void admin_is_on_manage_batch_page() 
+		@Given("BatchAdmin is on Manage Batch page")
+		public void BatchAdmin_is_on_manage_batch_page() 
 		{
 			//batchObj1.menuBatchtab();
-			LoggerClass.info("Admin landed on Manage Batch page");
+			LoggerClass.info("BatchAdmin landed on Manage Batch page");
 		}
-		@When("Admin Clicks on + A New Batch button")
-		public void admin_clicks_on_a_new_batch_button() 
+		@When("BatchAdmin Clicks on + A New Batch button")
+		public void BatchAdmin_clicks_on_a_new_batch_button() 
 		{
 			//batchObj1.ClickAddnewBatch();
-			LoggerClass.info("Admin Clicks on + A New Batch button");
+			LoggerClass.info("BatchAdmin Clicks on + A New Batch button");
 		}
-		@Then("Admin see header text as {string}")
-		public void admin_see_header_text_as(String string)
+		@Then("BatchAdmin see header text as {string}")
+		public void BatchAdmin_see_header_text_as(String string)
 		{
 	 		if(!batchObj1.BatchDetailsDialog().equals("Batch Details")) 
 		    {
@@ -57,14 +57,14 @@ public class BatchAdminStep {
 		}
 		
 		/* Scenario 27 - No details Entered in Batch Details Dialog*/
-		@When("Admin Clicks on Save button with out entering details")
-		public void admin_clicks_on_save_button_with_out_entering_details() 
+		@When("BatchAdmin Clicks on Save button with out entering details")
+		public void BatchAdmin_clicks_on_save_button_with_out_entering_details() 
 		{
 			//batchObj1.ClickBatchDeatailsSave();
-			LoggerClass.info("Admin Clicks on Save Button with out entering details");
+			LoggerClass.info("BatchAdmin Clicks on Save Button with out entering details");
 		}
-		@Then("Admin see Error message {string}")
-		public void admin_see_error_message(String string)
+		@Then("BatchAdmin see Error message {string}")
+		public void BatchAdmin_see_error_message(String string)
 		{
 			if(!batchObj1.BatchDetailsInputError().equals("Name is required.")) 
 		    {
@@ -76,15 +76,15 @@ public class BatchAdminStep {
 		}
 
 		/* Scenario 27 - Enters Only Name in Batch Details Dialog*/
-		@When("Admin Clicks on Save button after entering Name details")
-		public void admin_clicks_on_save_button_after_entering_name_details() 
+		@When("BatchAdmin Clicks on Save button after entering Name details")
+		public void BatchAdmin_clicks_on_save_button_after_entering_name_details() 
 		{
 			//batchObj1.BatchDetailsName("SDET77");
 			//batchObj1.ClickBatchDeatailsSave();
-			LoggerClass.info("Admin Clicks on Save Button with out entering details");
+			LoggerClass.info("BatchAdmin Clicks on Save Button with out entering details");
 		}
-		@Then("Admin see Error message as {string}")
-		public void admin_see_error_message_as(String string)
+		@Then("BatchAdmin see Error message as {string}")
+		public void BatchAdmin_see_error_message_as(String string)
 		{
 			if(!batchObj1.BatchDetailsInputError1().equals("Description is required.")) 
 		    {
@@ -100,43 +100,43 @@ public class BatchAdminStep {
 		public void clicks_on_drop_down_menu_in_batch_details_window() 
 		{
 		//	batchObj1.BatchDetailsProgramName("frontend");
-			LoggerClass.info("Admin Clicks on DropDown Menu in Batch Details window");
+			LoggerClass.info("BatchAdmin Clicks on DropDown Menu in Batch Details window");
 		}
-		@When("Admin Clicks on Save button after selecting a Program Name only from the dropdown")
-		public void admin_clicks_on_save_button_after_selecting_a_program_name_only_from_the_dropdown()
+		@When("BatchAdmin Clicks on Save button after selecting a Program Name only from the dropdown")
+		public void BatchAdmin_clicks_on_save_button_after_selecting_a_program_name_only_from_the_dropdown()
 		{
 			//batchObj1.ClickBatchDeatailsSave();
-			LoggerClass.info("Admin Clicks on Save button after selecting a Program Name only from the dropdown");
+			LoggerClass.info("BatchAdmin Clicks on Save button after selecting a Program Name only from the dropdown");
 		}
 		
 		/* Scenario 29 -Selects Status only in Batch Details window*/
-		@When("Admin Clicks on Save button after selecting Status alone")
-		public void admin_clicks_on_save_button_after_selecting_status_alone() 
+		@When("BatchAdmin Clicks on Save button after selecting Status alone")
+		public void BatchAdmin_clicks_on_save_button_after_selecting_status_alone() 
 		{
 			//batchObj1.BatchDetailsStatus("ACTIVE");
 			//batchObj1.ClickBatchDeatailsSave();
-			LoggerClass.info("Admin Clicks on Save Button after selecting Status alone");
+			LoggerClass.info("BatchAdmin Clicks on Save Button after selecting Status alone");
 		}
 		
 		/* Scenario 30 -Enters Only Number Of Classes in Batch Details window*/
-		@When("Admin Clicks on Save button after entering Only Number Of Classes")
-		public void admin_clicks_on_save_button_after_entering_only_number_of_classes() 
+		@When("BatchAdmin Clicks on Save button after entering Only Number Of Classes")
+		public void BatchAdmin_clicks_on_save_button_after_entering_only_number_of_classes() 
 		{
 			//batchObj1.BatchDetailsNumofClasses("15");
 			//batchObj1.ClickBatchDeatailsSave();
-			LoggerClass.info("Admin Clicks on Save Button after entering only Number of classes");
+			LoggerClass.info("BatchAdmin Clicks on Save Button after entering only Number of classes");
 		}
 		
 		/* Scenario 31 -Click on Cancel button in Batch Details window*/
-		@When("Admin Clicks on Cancel button")
-		public void admin_clicks_on_cancel_button()
+		@When("BatchAdmin Clicks on Cancel button")
+		public void BatchAdmin_clicks_on_cancel_button()
 		{
 			//batchObj1.ClickBatchDeatailsCancel();
 		//	batchObj1.AddBatchDetails("SDET77","frontend","INACTIVE","15","SDETtest","Cancel");
-			LoggerClass.info("Admin Clicks on Cancel button");
+			LoggerClass.info("BatchAdmin Clicks on Cancel button");
 		}
-		@Then("Admin see a Batch Details window getting closed")
-		public void admin_see_a_batch_details_window_getting_closed() 
+		@Then("BatchAdmin see a Batch Details window getting closed")
+		public void BatchAdmin_see_a_batch_details_window_getting_closed() 
 		{
 	 		if(!batchObj1.validateBatchHeader().equals("Manage Batch")) 
 		    {
@@ -144,27 +144,27 @@ public class BatchAdminStep {
 			   Assert.assertTrue(false);
 			 }
 			   Assert.assertTrue(true);
-			   LoggerClass.info("Admin see Batch Page Header");
+			   LoggerClass.info("BatchAdmin see Batch Page Header");
 		}
 		
 		/* Scenario 32 - Enters Only Description in Batch Details window*/
-		@When("Admin Clicks on Save button with entering only Description details")
-		public void admin_clicks_on_save_button_with_out_entering_only_description_details()
+		@When("BatchAdmin Clicks on Save button with entering only Description details")
+		public void BatchAdmin_clicks_on_save_button_with_out_entering_only_description_details()
 		{
 			//batchObj1.BatchDetailsDescription("frontend");
 			//batchObj1.ClickBatchDeatailsSave();
-			 LoggerClass.info("Admin Clicks on Save Button after entering only Description");
+			 LoggerClass.info("BatchAdmin Clicks on Save Button after entering only Description");
 		}
 			
 		/* Scenario 33 - Enter All details in Batch Details window*/
-		@When("Admin Clicks on Save button after entering all detail")
-		public void admin_clicks_on_save_button_after_entering_all_detail()
+		@When("BatchAdmin Clicks on Save button after entering all detail")
+		public void BatchAdmin_clicks_on_save_button_after_entering_all_detail()
 		{
 			//batchObj1.AddBatchDetails("SDET77","frontend","INACTIVE","15","SDETtest","Save");
-			 LoggerClass.info("Admin Clicks on Save button after entering all detail");
+			 LoggerClass.info("BatchAdmin Clicks on Save button after entering all detail");
 		}
-		@Then("Admin see Success message {string}")
-		public void admin_see_success_message(String string) throws InterruptedException 
+		@Then("BatchAdmin see Success message {string}")
+		public void BatchAdmin_see_success_message(String string) throws InterruptedException 
 		{
 			 if(!batchObj1.NewBatchSuceessMsg().equals("New Batch Created")) 
 			 {
@@ -175,24 +175,24 @@ public class BatchAdminStep {
 			 	 LoggerClass.info("Sucess Alert Message: " + batchObj1.NewBatchSuceessMsg());
 		}
 		
-		/* Scenario 38 - Admin Validate First Edit button in Batch Page window */
-		@When("Admin Clicks on first Edit buttton")
-		public void admin_clicks_on_edit_buttton()
+		/* Scenario 38 - BatchAdmin Validate First Edit button in Batch Page window */
+		@When("BatchAdmin Clicks on first Edit buttton")
+		public void BatchAdmin_clicks_on_edit_buttton()
 		{
 			// batchObj1.validatefirstBatchEditbtn();
-			 LoggerClass.info("Admin Clicks on Edit buttton");
+			 LoggerClass.info("BatchAdmin Clicks on Edit buttton");
 		}
 		
-		/* Scenario 39 -Admin Edits Batch Name in Batch Page window*/
-		@When("Admin Clicks on Save button after updating Name")
-		public void admin_clicks_on_save_button_after_updating_name() 
+		/* Scenario 39 -BatchAdmin Edits Batch Name in Batch Page window*/
+		@When("BatchAdmin Clicks on Save button after updating Name")
+		public void BatchAdmin_clicks_on_save_button_after_updating_name() 
 		{
 			// batchObj1.BatchDetailsName("testtest1");
 			// batchObj1.ClickBatchDeatailsSave();
-			 LoggerClass.info("Admin Edits batch Name in Batch Details window");
+			 LoggerClass.info("BatchAdmin Edits batch Name in Batch Details window");
 		}
-		@Then("Admin see Updated message as {string}")
-		public void admin_see_updated_message_as(String string) throws InterruptedException 
+		@Then("BatchAdmin see Updated message as {string}")
+		public void BatchAdmin_see_updated_message_as(String string) throws InterruptedException 
 		{
 			if(!batchObj1.UpdatedNameSucessMsg().equals("Updated Name")) 
 			 {
@@ -203,16 +203,16 @@ public class BatchAdminStep {
 			 	 LoggerClass.info("Sucess Update Message: " + batchObj1.UpdatedNameSucessMsg());
 		}
 		
-		/* Scenario 39 -Admin Edits first Batch Description in Batch Page window*/
-		@When("Admin Clicks on Save button after updating Description")
-		public void admin_clicks_on_save_button_after_updating_description() 
+		/* Scenario 39 -BatchAdmin Edits first Batch Description in Batch Page window*/
+		@When("BatchAdmin Clicks on Save button after updating Description")
+		public void BatchAdmin_clicks_on_save_button_after_updating_description() 
 		{	
 			//batchObj1.BatchDetailsDescription("asdas2");
 			//batchObj1.ClickBatchDeatailsSave();
-			 LoggerClass.info("Admin Edits batch Description in Batch Details window");
+			 LoggerClass.info("BatchAdmin Edits batch Description in Batch Details window");
 		}
-		@Then("Admin see Update message as {string}")
-		public void admin_see_update_message_as(String string) throws InterruptedException 
+		@Then("BatchAdmin see Update message as {string}")
+		public void BatchAdmin_see_update_message_as(String string) throws InterruptedException 
 		{
 			if(!batchObj1.UpdatedDescriptionSucessMsg().equals("Updated Description")) 
 			 {
@@ -223,16 +223,16 @@ public class BatchAdminStep {
 			 	 LoggerClass.info("Sucess Update Message: " + batchObj1.UpdatedDescriptionSucessMsg());
 		}
 		
-		/* Scenario 39 -Admin Edits first Progran Name in Batch Page window */
-		@When("Admin Clicks on Save button after updating Program ame")
-		public void admin_clicks_on_save_button_after_updating_program_ame() 
+		/* Scenario 39 -BatchAdmin Edits first Progran Name in Batch Page window */
+		@When("BatchAdmin Clicks on Save button after updating Program ame")
+		public void BatchAdmin_clicks_on_save_button_after_updating_program_ame() 
 		{
 			//batchObj1.BatchDetailsProgramName("SDETtest1");
 			//batchObj1.ClickBatchDeatailsSave();
-			 LoggerClass.info("Admin Edits Batch Progran Name in Batch Details window");
+			 LoggerClass.info("BatchAdmin Edits Batch Progran Name in Batch Details window");
 		}
-		@Then("Admin see message as {string}")
-		public void admin_see_message_as(String string) throws InterruptedException
+		@Then("BatchAdmin see message as {string}")
+		public void BatchAdmin_see_message_as(String string) throws InterruptedException
 		{
 			if(!batchObj1.UpdatedProgramNameSucessMsg().equals("Updated Program Name")) 
 			 {
@@ -243,16 +243,16 @@ public class BatchAdminStep {
 			 	 LoggerClass.info("Sucess Update Message: " + batchObj1.UpdatedProgramNameSucessMsg());
 		}
 		
-		/* Scenario 40 -Admin Edits first Batch Status in Batch Page window */
-		@When("Admin Clicks on Save button after updating Status")
-		public void admin_clicks_on_save_button_after_updating_status() 
+		/* Scenario 40 -BatchAdmin Edits first Batch Status in Batch Page window */
+		@When("BatchAdmin Clicks on Save button after updating Status")
+		public void BatchAdmin_clicks_on_save_button_after_updating_status() 
 		{
 			//batchObj1.BatchDetailsStatus("INACTIVE");
 			//batchObj1.ClickBatchDeatailsSave();
-			 LoggerClass.info("Admin Edits Batch Status in Batch Details window");
+			 LoggerClass.info("BatchAdmin Edits Batch Status in Batch Details window");
 		}
-		@Then("Admin see Update message1 as {string}")
-		public void admin_see_update_message1_as(String string) throws InterruptedException 
+		@Then("BatchAdmin see Update message1 as {string}")
+		public void BatchAdmin_see_update_message1_as(String string) throws InterruptedException 
 		{
 			if(!batchObj1.UpdatedStatusSucessMsg().equals("Updated Status")) 
 			 {
@@ -263,16 +263,16 @@ public class BatchAdminStep {
 			 	 LoggerClass.info("Sucess Update Message: " + batchObj1.UpdatedStatusSucessMsg());
 		}
 		
-		/* Scenario 41 -Admin Edits first No.Of Classes in Batch Page window */	
-		@When("Admin Clicks on Save button after updating No of Classes")
-		public void admin_clicks_on_save_button_after_updating_no_of_classes() 
+		/* Scenario 41 -BatchAdmin Edits first No.Of Classes in Batch Page window */	
+		@When("BatchAdmin Clicks on Save button after updating No of Classes")
+		public void BatchAdmin_clicks_on_save_button_after_updating_no_of_classes() 
 		{
 			// batchObj1.BatchDetailsNumofClasses("1000");
 			// batchObj1.ClickBatchDeatailsSave();
-			 LoggerClass.info("Admin Edits No of Classes in Batch Details window");
+			 LoggerClass.info("BatchAdmin Edits No of Classes in Batch Details window");
 		}
-		@Then("Admin see Update message2 as {string}")
-		public void admin_see_update_message2_as(String string) throws InterruptedException 
+		@Then("BatchAdmin see Update message2 as {string}")
+		public void BatchAdmin_see_update_message2_as(String string) throws InterruptedException 
 		{
 			if(!batchObj1.UpdatedClassesSucessMsg().equals("Updated No of Classes")) 
 			 {
@@ -283,15 +283,15 @@ public class BatchAdminStep {
 			 	 LoggerClass.info("Sucess Update Message: " + batchObj1.UpdatedClassesSucessMsg());
 		}
 		
-		/* Scenario 41 - Admin Verify Delete Functionality */	
-		@When("Admin Clicks on third Delete button located on the right side")
-		public void admin_clicks_on_third_Delete_button_located_on_the_right_side() 
+		/* Scenario 41 - BatchAdmin Verify Delete Functionality */	
+		@When("BatchAdmin Clicks on third Delete button located on the right side")
+		public void BatchAdmin_clicks_on_third_Delete_button_located_on_the_right_side() 
 		{
 			//batchObj1.ClickThirdDelete();
-			 LoggerClass.info("Admin selects third row to Delete");
+			 LoggerClass.info("BatchAdmin selects third row to Delete");
 		}
-		@Then("Admin see Delete header text as {string}")
-		public void admin_see_delete_header_text_as(String string)
+		@Then("BatchAdmin see Delete header text as {string}")
+		public void BatchAdmin_see_delete_header_text_as(String string)
 		{
 			if(!batchObj1.DeleteConfirmHeader().equals("Delete Confirm")) 
 			{
@@ -299,18 +299,18 @@ public class BatchAdminStep {
 				Assert.assertTrue(false);
 			}
 		 		Assert.assertTrue(true);
-		 		 LoggerClass.info("Admin see Delete header text as Delete Confirm");
+		 		 LoggerClass.info("BatchAdmin see Delete header text as Delete Confirm");
 		}
 		
-		/* Scenario 42 - Admin Click on No button in Delete Confirm dialog */	
-		@When("Admin Clicks on No button")
-		public void admin_clicks_on_no_button() 
+		/* Scenario 42 - BatchAdmin Click on No button in Delete Confirm dialog */	
+		@When("BatchAdmin Clicks on No button")
+		public void BatchAdmin_clicks_on_no_button() 
 		{
 			// batchObj1.ClickNoBtnDelete();
-			 LoggerClass.info("Admin Cancels third row to Delete");
+			 LoggerClass.info("BatchAdmin Cancels third row to Delete");
 		}
-		@Then("Admin see Delete Confirm dialog closed")
-		public void admin_see_delete_confirm_dialog_closed()
+		@Then("BatchAdmin see Delete Confirm dialog closed")
+		public void BatchAdmin_see_delete_confirm_dialog_closed()
 		{
 	 		if(!batchObj1.validateBatchHeader().equals("Manage Batch")) 
 		    {
@@ -318,18 +318,18 @@ public class BatchAdminStep {
 			   Assert.assertTrue(false);
 			 }
 			   Assert.assertTrue(true);
-			   LoggerClass.info("Admin see Batch Page Header");
+			   LoggerClass.info("BatchAdmin see Batch Page Header");
 		}
 		
-		/* Scenario 43 - Admin Click on Yes button in Delete Confirm dialog */	
-		@When("Admin Clicks on Yes button")
-		public void admin_clicks_on_yes_button() 
+		/* Scenario 43 - BatchAdmin Click on Yes button in Delete Confirm dialog */	
+		@When("BatchAdmin Clicks on Yes button")
+		public void BatchAdmin_clicks_on_yes_button() 
 		{
 			// batchObj1.ClickYesBtnDelete();
-			 LoggerClass.info("Admin Deletes third row");
+			 LoggerClass.info("BatchAdmin Deletes third row");
 		}
-		@Then("Admin see Delete Success message {string}")
-		public void admin_see_delete_success_message(String string) throws InterruptedException 
+		@Then("BatchAdmin see Delete Success message {string}")
+		public void BatchAdmin_see_delete_success_message(String string) throws InterruptedException 
 		{
 			if(!batchObj1.DeleteConfirmMsg().equals("Batch Deleted Succesfully")) 
 			 {
@@ -341,16 +341,16 @@ public class BatchAdminStep {
 		}
 		
 		/* Scenario 54 - Verify Deletion of Multiple Records  */
-		@Given("Admin selects more than one Batch Name using checkbox")
-		public void admin_selects_more_than_one_batch_name_using_checkbox() throws InterruptedException
+		@Given("BatchAdmin selects more than one Batch Name using checkbox")
+		public void BatchAdmin_selects_more_than_one_batch_name_using_checkbox() throws InterruptedException
 		{
 			 batchObj1.ClickBatchcheckbox();
 			 LoggerClass.info("Use Clicks on First checkbox left to Batch Name");
 			 Assert.assertTrue(batchObj1.BatchCheckboxFunctionality());
 			 LoggerClass.info("User see all the checkboxes in the Batch page get selected");
 		}
-		@When("Admin Clicks on Enabled Delete button on the top left hand side")
-		public void admin_clicks_on_enabled_delete_button_on_the_top_left_hand_side()
+		@When("BatchAdmin Clicks on Enabled Delete button on the top left hand side")
+		public void BatchAdmin_clicks_on_enabled_delete_button_on_the_top_left_hand_side()
 		{
 			if(!batchObj1.leftDeleteBtnStatus() == false)
 			 {
@@ -371,12 +371,12 @@ public class BatchAdminStep {
 				Assert.assertTrue(false);
 			}
 		 		Assert.assertTrue(true);
-		 		 LoggerClass.info("Admin see Delete header text as Delete Confirm");
+		 		 LoggerClass.info("BatchAdmin see Delete header text as Delete Confirm");
 		}
 		
-		/* Scenario 55 -  Admin Verify the Edit Functionality in Attendance page  */
-		@Given("Admin is on Manage Attendance page")
-		public void admin_is_on_manage_attendance_page() 
+		/* Scenario 55 -  BatchAdmin Verify the Edit Functionality in Attendance page  */
+		@Given("BatchAdmin is on Manage Attendance page")
+		public void BatchAdmin_is_on_manage_attendance_page() 
 		{
 			if(!batchObj1.navigateToAttendancePage().equals("Manage Attendance")) 
 			{
@@ -384,35 +384,35 @@ public class BatchAdminStep {
 				Assert.assertTrue(false);
 			}
 			 Assert.assertTrue(true);
-			 LoggerClass.info("Admin is on Manage Attendance page");	
+			 LoggerClass.info("BatchAdmin is on Manage Attendance page");	
 			 
 		}
-		@When("Admin Clicks on First Edit buttton")
-		public void admin_clicks_on_first_edit_buttton()
+		@When("BatchAdmin Clicks on First Edit buttton")
+		public void BatchAdmin_clicks_on_first_edit_buttton()
 		{
 			batchObj1.ClickAttendanceEditBtn();
-			LoggerClass.info("Admin Clicks on First Edit buttton in Attendance Page");
+			LoggerClass.info("BatchAdmin Clicks on First Edit buttton in Attendance Page");
 		}
-		@Then("Admin see Attendance Error message {string}")
-		public void admin_see_attendance_error_message(String string) 
+		@Then("BatchAdmin see Attendance Error message {string}")
+		public void BatchAdmin_see_attendance_error_message(String string) 
 		{
-			if(!batchObj1.AttendanceErrorMsg().equals("Admin Has View Only Permission")) 
+			if(!batchObj1.AttendanceErrorMsg().equals("BatchAdmin Has View Only Permission")) 
 			 {
 				LoggerClass.debug("Alert Message Capturing Failed");
 				Assert.assertTrue(false);
 	     	 }
 			 	Assert.assertTrue(true);
 				System.out.println("Attendance Error Message: " + batchObj1.AttendanceErrorMsg());
-			    LoggerClass.info("Admin Has View Only Permission in Attendance Page ");
+			    LoggerClass.info("BatchAdmin Has View Only Permission in Attendance Page ");
 			
 		}
-		/* Scenario 5 - Admin Verify the Delete Functionality in Attendance page  */
+		/* Scenario 5 - BatchAdmin Verify the Delete Functionality in Attendance page  */
 		
-		@When("Admin Clicks on First Delete buttton")
-		public void admin_clicks_on_first_delete_buttton()
+		@When("BatchAdmin Clicks on First Delete buttton")
+		public void BatchAdmin_clicks_on_first_delete_buttton()
 		{
 			batchObj1.ClickAttendanceDeleteBtn();
-			LoggerClass.info("Admin Clicks on First Delete buttton in Attendance Page");
+			LoggerClass.info("BatchAdmin Clicks on First Delete buttton in Attendance Page");
 		}
 		
 		
