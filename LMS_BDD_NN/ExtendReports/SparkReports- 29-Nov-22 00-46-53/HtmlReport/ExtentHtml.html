@@ -1,0 +1,4014 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link href='http://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title></title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+			
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow bdd-report'>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+        <a href="#!" class="brand-logo black"><img src="http://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+			<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'></span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Nov 29, 2022 12:46:53 AM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>local_offer</i> Category
+				</a>
+				<ul id='category-toggle' class='dropdown-content'>
+					<li><a href='#'>@tag7</a></li>
+					<li><a href='#'>@Admin</a></li>
+					<li><a href='#'>@tag15</a></li>
+					<li><a href='#'>@tag</a></li>
+					<li><a href='#'>@paginatornext</a></li>
+					<li><a href='#'>@staffdeleteno</a></li>
+					<li><a href='#'>@tag11</a></li>
+					<li><a href='#'>@clickcancel</a></li>
+					<li><a href='#'>@tag14</a></li>
+					<li><a href='#'>@DeleteMultipleAssignment</a></li>
+					<li><a href='#'>@tag8</a></li>
+					<li><a href='#'>@paginator</a></li>
+					<li><a href='#'>@managebutton</a></li>
+					<li><a href='#'>@nodelete</a></li>
+					<li><a href='#'>@Alldetailsentered</a></li>
+					<li><a href='#'>@tag9</a></li>
+					<li><a href='#'>@Nodetails</a></li>
+					<li><a href='#'>@yesdelete</a></li>
+					<li><a href='#'>@leftsidechkbox</a></li>
+					<li><a href='#'>@Assignment</a></li>
+					<li><a href='#'>@tag13</a></li>
+					<li><a href='#'>@paginatorprevious</a></li>
+					<li><a href='#'>@staffdelete</a></li>
+					<li><a href='#'>@Headervalidation</a></li>
+					<li><a href='#'>@Newassignmnet</a></li>
+					<li><a href='#'>@EditbtnValidation</a></li>
+					<li><a href='#'>@Editfunctionality</a></li>
+					<li><a href='#'>@Footervalidation</a></li>
+					<li><a href='#'>@tag12</a></li>
+					<li><a href='#'>@chkbox</a></li>
+					<li><a href='#'>@Googleform</a></li>
+					<li><a href='#'>@Staffdeleteyes</a></li>
+					<li><a href='#'>@tag10</a></li>
+					<li class='divider'></li>
+					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+				</ul>
+			</div>
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m4 l4 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Features</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='$0%'>
+                    <span class='strong'>0</span> features passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
+                    1</span> features failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> skipped
+                </div>
+            </div>
+        </div>
+        <div class='col s12 m4 l4 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Scenarios</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='child-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'>
+                    <span class='strong'>0</span> scenarios passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>
+                    38</span> scenarios failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> others
+                </div>
+            </div>
+        </div>
+        <div class='col s12 m4 l4 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Steps</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='grandchild-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='0%'>
+                    <span class='strong'>0</span> steps passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='16%'>
+                    38</span> steps failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='83%'>
+                    189</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Manage Assignment Page</span>
+						<span class='test-time'>Nov 29, 2022 12:46:55 AM</span>
+						<span class='test-status right fail'>Fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class="sr-filters bdd-filters">
+	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
+	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
+	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
+	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
+</div>
+
+<div class='scenario node' test-id='2' status='fail'>
+
+	<span class='duration right label'>00 00 00.034</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Validate Assignment Heading</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Headervalidation</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='3' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='4' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='5' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='6' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is logged on to LMS website</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='7' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='8' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see a Header "Manage Assignment"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='9' status='fail'>
+
+	<span class='duration right label'>00 00 00.009</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Validate Assignment Footer</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Footervalidation</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='10' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='11' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='12' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='13' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is logged on to LMS website</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='14' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='15' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see a Footer text "In Total there are 3 assignments"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='16' status='fail'>
+
+	<span class='duration right label'>00 00 00.008</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Validating Assignment Paginator</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@paginator</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='17' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='18' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='19' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='20' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='21' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see a Paginator text "Showing 1 to 3 of entries"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='22' status='fail'>
+
+	<span class='duration right label'>00 00 00.007</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify paginator - next button on the assignment page</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@paginatornext</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='23' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='24' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='25' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='26' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='27' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Enabled paginator-next button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='28' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User Should be navigated to next page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='29' status='fail'>
+
+	<span class='duration right label'>00 00 00.006</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify paginator -previous button on the Assignment page</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@paginatorprevious</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='30' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='31' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='32' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='33' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='34' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Enabled paginator-next button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='35' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User Should be navigated to previous page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='36' status='fail'>
+
+	<span class='duration right label'>00 00 00.007</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify paginator -last button on the Assignment page</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='37' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='38' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='39' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='40' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='41' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Enabled paginator-next button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='42' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User Should be navigated to Last page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='43' status='fail'>
+
+	<span class='duration right label'>00 00 00.009</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify paginator -first button on the Program page</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag7</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='44' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='45' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='46' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='47' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='48' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Enabled paginator-next button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='49' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User Should be navigated to First  page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='50' status='fail'>
+
+	<span class='duration right label'>00 00 00.010</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Validate Search Feature</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag8</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='51' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='52' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='53' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='54' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is logged on to LMS website</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='55' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User clicks Search bar after entering Assignment name</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='56' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then The requested assignment details should be displayed</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='57' status='fail'>
+
+	<span class='duration right label'>00 00 00.008</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Name are displayed in Ascending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag9</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='58' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='59' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='60' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='61' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='62' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Name Ascending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='63' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Name displayed in Ascending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='64' status='fail'>
+
+	<span class='duration right label'>00 00 00.007</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Description are displayed in Ascending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag10</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='65' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='66' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='67' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='68' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='69' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Description Ascending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='70' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Description displayed in Ascending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='71' status='fail'>
+
+	<span class='duration right label'>00 00 00.005</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Duedate are displayed in Ascending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag11</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='72' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='73' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='74' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='75' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='76' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Due Date Ascending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='77' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Due Date displayed in Ascending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='78' status='fail'>
+
+	<span class='duration right label'>00 00 00.006</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Grade  are displayed in Ascending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@tag12</span>
+				<span class='category label'>@Assignment</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='79' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='80' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='81' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='82' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='83' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Grade Ascending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='84' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Grade displayed in Ascending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='85' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Name are displayed in Descending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@tag13</span>
+				<span class='category label'>@Assignment</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='86' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='87' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='88' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='89' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='90' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Name Descending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='91' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Name displayed in Descending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='92' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Description are displayed in Descending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag14</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='93' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='94' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='95' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='96' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='97' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Description Descending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='98' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Description displayed in Descending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='99' status='fail'>
+
+	<span class='duration right label'>00 00 00.007</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Duedate are displayed in Descending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag15</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='100' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='101' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='102' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='103' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='104' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Due Date Descending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='105' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Due Date displayed in Descending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='106' status='fail'>
+
+	<span class='duration right label'>00 00 00.004</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Verify Assignment Grade are displayed in Descending order</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag15</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='107' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='108' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='109' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='110' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='111' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User Clicks on Assignment Grade Descending Arrow</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='112' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see the Assignment Grade displayed in Descending order</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='113' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Validate Add New Assignment button</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Admin</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='114' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='115' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='116' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='117' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Admin/User is on Manage Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='118' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Admin/User clicks a Add New Assignment button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='119' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Admin/User should see a message "Staff only have access to add New Assignment"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='120' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: No details Entered in  Assignment Details window</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Nodetails</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='121' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='122' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='123' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='124' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Assignment Details page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='125' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff  clicks on Save after leaving all the fields empty</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='126' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff should see an error message "Name is required"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='127' status='fail'>
+
+	<span class='duration right label'>00 00 00.007</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff Validate Assignment Details window with entering all fields</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Alldetailsentered</span>
+				<span class='category label'>@Assignment</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='128' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='129' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='130' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='131' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Assignment Details page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='132' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff enters assignment name,assignment description,assignment Grade and Duedate and clicks save</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>sdet</td><td>java</td><td>A</td><td>10/01/2022</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='133' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff should see a message "New Assignment successfully added"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='134' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff Click Cancel in Assignment Details window</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@clickcancel</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='135' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='136' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='137' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='138' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Assignment Details page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='139' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff enters assignment name,assignment description,assignment Grade and Duedate and clicks cancel</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>sql</td><td>Tables</td><td>B</td><td>12/01/2022</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='140' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff should see a Assignment details window is closed</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='141' status='fail'>
+
+	<span class='duration right label'>00 00 00.006</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: validate New assignment</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Newassignmnet</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='142' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='143' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='144' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='145' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='146' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User clicks on Assignment</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='147' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User should see a newly added Assignment</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='148' status='fail'>
+
+	<span class='duration right label'>00 00 00.006</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Validate  Manage button in Assignment Grade</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@managebutton</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='149' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='150' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='151' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='152' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Assignment  page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='153' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks manage button under Assignment Grade</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='154' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff should be navigated to Grade Window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='155' status='fail'>
+
+	<span class='duration right label'>00 00 00.004</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff Validates Edit button</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@EditbtnValidation</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='156' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='157' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='158' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='159' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Assignment  page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='160' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks an edit Assignment button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='161' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff should see a Assignment details window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='162' status='fail'>
+
+	<span class='duration right label'>00 00 00.004</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Edit functionality in Assignment page</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Editfunctionality</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='163' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='164' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='165' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='166' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Assignment  page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='167' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff edits all the fields after clicking on Edit button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='168' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then The fields should be edited successfully</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='169' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: User/staff clicks Assignment Name</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Googleform</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='170' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='171' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='172' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='173' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User/Staff is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='174' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User/Staff clicks on Assignment Name</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='175' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User/Staff should be navigated to Assignment Google form page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='176' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Admin clicks Assignment Name</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Admin</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='177' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='178' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='179' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='180' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Admin is on Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='181' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Admin clicks on Assignment Name</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='182' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Admin should see a warning message "you dont have access"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='183' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: User/Staff validate assignment Google form with entering all fields</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag15</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='184' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='185' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='186' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='187' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User/Staff is on Assignment  Google form page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='188' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User/Staff enters all questions and clicks save</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>kalai Ganeshan</td><td>Tiger</td><td>Black</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='189' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User/Staff entered google forms successfully</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='190' status='fail'>
+
+	<span class='duration right label'>00 00 00.004</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: User/Staff validate assignment Google form leaving empty</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='191' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='192' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='193' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='194' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User/Staff is on Assignment  Google form page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='195' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User/Staff clicks on submit button after leaving all questions and mail id</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='196' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User/Staff should get a warning message "Must enter the mandatory fields"</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='197' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: User/Staff Validate Assignment google form after cliclking clear button</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@tag</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='198' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='199' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='200' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='201' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User/Staff is on Assignment  Google form page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='202' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User/Staff clicks clear form button after entering all questions and mail id</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='203' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then The Assignment Google form cleared successfully</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='204' status='fail'>
+
+	<span class='duration right label'>00 00 00.004</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff clicks delete button</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@staffdelete</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='205' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='206' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='207' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='208' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Manage Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='209' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks on delete button on the righr side</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='210' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff should see a Delete Confirmation window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='211' status='fail'>
+
+	<span class='duration right label'>00 00 00.002</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff click Yes in Delete confirmation window</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Staffdeleteyes</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='212' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='213' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='214' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='215' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Delete Confirmation window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='216' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks Yes</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='217' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff Should see "Assignment Deleted Successfully</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='218' status='fail'>
+
+	<span class='duration right label'>00 00 00.002</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff clicks No button in Delete confirmation window</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@staffdeleteno</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='219' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='220' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='221' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='222' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Delete Confirmation window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='223' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks No</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='224' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Confirmation delete window should be closed successfully</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='225' status='fail'>
+
+	<span class='duration right label'>00 00 00.002</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff  validate delete button on the top left</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@DeleteMultipleAssignment</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='226' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='227' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='228' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='229' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Manage Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='230' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks delete button on the top aftr selecting multiple checkbox</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='231' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Staff should see a  Delete confirm window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='232' status='fail'>
+
+	<span class='duration right label'>00 00 00.006</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff click Yes in Delete confirmation window</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@yesdelete</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='233' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='234' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='235' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='236' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Delete Confirmation window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='237' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks Yes</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='238' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then All Assignments are deleted Successfully</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='239' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Staff click No in Delete confirmation window</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@nodelete</span>
+				<span class='category label'>@Assignment</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='240' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='241' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='242' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='243' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Staff is on Delete Confirmation window</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='244' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Staff clicks No</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='245' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Confirmation delete window should be closed successfully</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='246' status='fail'>
+
+	<span class='duration right label'>00 00 00.002</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: User/Staff validate individual checkbox</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@chkbox</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='247' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='248' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='249' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='250' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User/Staff is on Assignments page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='251' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User/Staff clicks individual checkbox button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='252' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User/Staff should see a delete button on the top left</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='253' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Admin validate individual checkbox</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@Admin</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='254' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='255' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='256' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='257' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given Admin is on Manage Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='258' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Admin clicks individual checkbox button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='259' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then Admin should see a warning message "Admin dont have access "</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='260' status='fail'>
+
+	<span class='duration right label'>00 00 00.003</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: User/Staff validate check box on the left side to the Assignment Name</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@Assignment</span>
+				<span class='category label'>@leftsidechkbox</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='261' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given User is on LMS website</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='262' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User enters username and password credentials</div>
+
+
+					<div class="node-step"><table class='markup-table table '><tr><td>lms</td><td>lms@123</td></tr></table></div>
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='263' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then user lands on Home page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='264' class='node given Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Given User/Staff is on Manage Assignment page</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='265' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When User/Staff clicks check box on the left side to the Assignment Name</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='266' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then User/Staff should see a enabled delete button on the top left</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><div id='category-view' class='view hide'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='category-collection' class='category-collection'>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag7</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='43'>Verify paginator -first button on the Program page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Admin</span>
+						<span class='category-status right'>
+						<span class='label fail'>3</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 3</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='113'>Validate Add New Assignment button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='176'>Admin clicks Assignment Name</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='253'>Admin validate individual checkbox</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag15</span>
+						<span class='category-status right'>
+						<span class='label fail'>3</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 3</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='99'>Verify Assignment Duedate are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='106'>Verify Assignment Grade are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='183'>User/Staff validate assignment Google form with entering all fields</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag</span>
+						<span class='category-status right'>
+						<span class='label fail'>2</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 2</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='190'>User/Staff validate assignment Google form leaving empty</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='197'>User/Staff Validate Assignment google form after cliclking clear button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@paginatornext</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='22'>Verify paginator - next button on the assignment page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@staffdeleteno</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='218'>Staff clicks No button in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag11</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='71'>Verify Assignment Duedate are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@clickcancel</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='134'>Staff Click Cancel in Assignment Details window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag14</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='92'>Verify Assignment Description are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@DeleteMultipleAssignment</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='225'>Staff  validate delete button on the top left</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag8</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='50'>Validate Search Feature</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@paginator</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='16'>Validating Assignment Paginator</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@managebutton</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='148'>Validate  Manage button in Assignment Grade</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@nodelete</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='239'>Staff click No in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Alldetailsentered</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='127'>Staff Validate Assignment Details window with entering all fields</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag9</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='57'>Verify Assignment Name are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Nodetails</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='120'>No details Entered in  Assignment Details window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@yesdelete</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='232'>Staff click Yes in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@leftsidechkbox</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='260'>User/Staff validate check box on the left side to the Assignment Name</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Assignment</span>
+						<span class='category-status right'>
+						<span class='label fail'>38</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 38</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='2'>Validate Assignment Heading</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='9'>Validate Assignment Footer</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='16'>Validating Assignment Paginator</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='22'>Verify paginator - next button on the assignment page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='29'>Verify paginator -previous button on the Assignment page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='36'>Verify paginator -last button on the Assignment page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='43'>Verify paginator -first button on the Program page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='50'>Validate Search Feature</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='57'>Verify Assignment Name are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='64'>Verify Assignment Description are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='71'>Verify Assignment Duedate are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='78'>Verify Assignment Grade  are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='85'>Verify Assignment Name are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='92'>Verify Assignment Description are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='99'>Verify Assignment Duedate are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='106'>Verify Assignment Grade are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='113'>Validate Add New Assignment button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='120'>No details Entered in  Assignment Details window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='127'>Staff Validate Assignment Details window with entering all fields</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='134'>Staff Click Cancel in Assignment Details window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='141'>validate New assignment</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='148'>Validate  Manage button in Assignment Grade</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='155'>Staff Validates Edit button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='162'>Edit functionality in Assignment page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='169'>User/staff clicks Assignment Name</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='176'>Admin clicks Assignment Name</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='183'>User/Staff validate assignment Google form with entering all fields</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='190'>User/Staff validate assignment Google form leaving empty</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='197'>User/Staff Validate Assignment google form after cliclking clear button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='204'>Staff clicks delete button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='211'>Staff click Yes in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='218'>Staff clicks No button in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='225'>Staff  validate delete button on the top left</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='232'>Staff click Yes in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='239'>Staff click No in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='246'>User/Staff validate individual checkbox</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='253'>Admin validate individual checkbox</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='260'>User/Staff validate check box on the left side to the Assignment Name</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag13</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='85'>Verify Assignment Name are displayed in Descending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@paginatorprevious</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='29'>Verify paginator -previous button on the Assignment page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@staffdelete</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='204'>Staff clicks delete button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Headervalidation</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='2'>Validate Assignment Heading</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Newassignmnet</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='141'>validate New assignment</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@EditbtnValidation</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='155'>Staff Validates Edit button</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Editfunctionality</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='162'>Edit functionality in Assignment page</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Footervalidation</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='9'>Validate Assignment Footer</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag12</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='78'>Verify Assignment Grade  are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@chkbox</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='246'>User/Staff validate individual checkbox</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Googleform</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='169'>User/staff clicks Assignment Name</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Staffdeleteyes</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:56 AM</td>
+										<td class='linked' test-id='211'>Staff click Yes in Delete confirmation window</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@tag10</span>
+						<span class='category-status right'>
+						<span class='label fail'>1</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 29, 2022 12:46:55 AM</td>
+										<td class='linked' test-id='64'>Verify Assignment Description are displayed in Ascending order</td>
+										<td><span class='test-status Fail'>Fail</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='category-name'></h5>
+		</div>
+	</div>
+</div>
+<!-- category view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Features
+					<div class='panel-lead'>1</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Scenarios
+					<div class='panel-lead'>38</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>227</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Nov 29, 2022 12:46:53 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Nov 29, 2022 12:46:56 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>00 00 02.466</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>appname</td>
+								<td>LMSAPP_Test</td>
+							</tr>
+							<tr>
+								<td>os</td>
+								<td>Window</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+			<div class='col s6'>
+				<div class='card-panel dashboard-categories'>
+					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Passed</th>
+							<th>Failed</th>
+							<th>Skipped</th>
+							<th>Passed %</th>
+						</tr>
+						<tr>
+							<td>@tag7</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Admin</td>
+							<td>0</td>
+							<td>3</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag15</td>
+							<td>0</td>
+							<td>3</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag</td>
+							<td>0</td>
+							<td>2</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@paginatornext</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@staffdeleteno</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag11</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@clickcancel</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag14</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@DeleteMultipleAssignment</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag8</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@paginator</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@managebutton</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@nodelete</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Alldetailsentered</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag9</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Nodetails</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@yesdelete</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@leftsidechkbox</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Assignment</td>
+							<td>0</td>
+							<td>38</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag13</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@paginatorprevious</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@staffdelete</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Headervalidation</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Newassignmnet</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@EditbtnValidation</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Editfunctionality</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Footervalidation</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag12</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@chkbox</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Googleform</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@Staffdeleteyes</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+						<tr>
+							<td>@tag10</td>
+							<td>0</td>
+							<td>1</td>
+							<td>0</td>
+							<td>
+									0%
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 1,
+				passParent: 0,
+				failParent: 1,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				childCount: 38,
+				passChild: 0,
+				failChild: 38,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				grandChildCount: 227,
+				passGrandChild: 0,
+				failGrandChild: 38,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 189,
+				infoGrandChild: 0,
+			};
+			</script>
+		
+		<script>
+			var timeline = {
+			        "Manage Assignment Page":1.005
+			};
+		</script>
+		
+		  <script src='http://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ff53917fbbdb5ef820abbbe4d199a6942dc771ff/v3html/js/extent.js' type='text/javascript'></script>
+		
+		
+		<script type='text/javascript'>
+				
+		</script> 
+
+	</body>
+</html>

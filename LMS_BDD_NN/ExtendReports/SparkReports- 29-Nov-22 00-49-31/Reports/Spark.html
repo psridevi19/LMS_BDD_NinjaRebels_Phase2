@@ -1,0 +1,3174 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>LMSAutomation-BDDFramework</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"> Extent Spark Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 29, 2022 12:49:31 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 29, 2022 12:49:31 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 29, 2022 12:49:33 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>34</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div>
+<small data-tooltip='25%'><b>34</b> steps failed,
+<b>98</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Manage Batch Page Accessed by either User/Admin/ Staff":1.114
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@ValidateBatchFooter</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@NumberofrowsinaTable</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyBatchNameinDescendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@UserAddANewBatchFunctionality</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyBatchStatusinAscendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@UserValidateEditbutton</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyBatchStatusinDescendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyBatchDescriptioninDescendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@SearchbyProgramName</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyBatchDescriptioninAscendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Verifypaginator-prevoiusbutton</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@MultipleProgramSelection</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyBatchNameinAscendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@SearchbyBatchDescription</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Verifypaginator-nextbutton</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Verifypaginator-lastbutton</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@EvaluateNewlyAddBatchName</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@SearchbyBatchName</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyProgramNameinAscendingorder</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifySearch</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@ValidateBatchHeader</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@SearchbyBatchStatus</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyDeletedBatchNames</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyNoOfClassesinDescendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerifyNoOfClassesinAscendingorder</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@SearchbyNoOfClasses</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@ValidateBatchPaginator</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@UserValidateDeletebutton</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Verifypaginator-firstbutton</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@EvaluateDeletedBatchName</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@CheckBoxFunctionality</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@DeleteButtononLeft</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@EvaluateEditedBatchName</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Batch</td>
+<td>0</td>
+<td>34</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>appname</td>
+<td>LMSAPP_Test</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Window</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 34,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 34,
+warningGrandChild: 0,
+skipGrandChild: 98,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@ValidateBatchFooter</a><a class="dropdown-item" href="#">@NumberofrowsinaTable</a><a class="dropdown-item" href="#">@VerifyBatchNameinDescendingorder</a><a class="dropdown-item" href="#">@UserAddANewBatchFunctionality</a><a class="dropdown-item" href="#">@VerifyBatchStatusinAscendingorder</a><a class="dropdown-item" href="#">@UserValidateEditbutton</a><a class="dropdown-item" href="#">@VerifyBatchStatusinDescendingorder</a><a class="dropdown-item" href="#">@VerifyBatchDescriptioninDescendingorder</a><a class="dropdown-item" href="#">@SearchbyProgramName</a><a class="dropdown-item" href="#">@VerifyBatchDescriptioninAscendingorder</a><a class="dropdown-item" href="#">@Verifypaginator-prevoiusbutton</a><a class="dropdown-item" href="#">@MultipleProgramSelection</a><a class="dropdown-item" href="#">@VerifyBatchNameinAscendingorder</a><a class="dropdown-item" href="#">@SearchbyBatchDescription</a><a class="dropdown-item" href="#">@Verifypaginator-nextbutton</a><a class="dropdown-item" href="#">@Verifypaginator-lastbutton</a><a class="dropdown-item" href="#">@EvaluateNewlyAddBatchName</a><a class="dropdown-item" href="#">@SearchbyBatchName</a><a class="dropdown-item" href="#">@VerifyProgramNameinAscendingorder</a><a class="dropdown-item" href="#">@VerifySearch</a><a class="dropdown-item" href="#">@ValidateBatchHeader</a><a class="dropdown-item" href="#">@SearchbyBatchStatus</a><a class="dropdown-item" href="#">@VerifyDeletedBatchNames</a><a class="dropdown-item" href="#">@VerifyNoOfClassesinDescendingorder</a><a class="dropdown-item" href="#">@VerifyNoOfClassesinAscendingorder</a><a class="dropdown-item" href="#">@SearchbyNoOfClasses</a><a class="dropdown-item" href="#">@ValidateBatchPaginator</a><a class="dropdown-item" href="#">@UserValidateDeletebutton</a><a class="dropdown-item" href="#">@Verifypaginator-firstbutton</a><a class="dropdown-item" href="#">@EvaluateDeletedBatchName</a><a class="dropdown-item" href="#">@CheckBoxFunctionality</a><a class="dropdown-item" href="#">@DeleteButtononLeft</a><a class="dropdown-item" href="#">@EvaluateEditedBatchName</a><a class="dropdown-item" href="#">@Batch</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Manage Batch Page Accessed by either User/Admin/ Staff</p>
+            <p class="text-sm">
+              <span>12:49:32 AM</span> / <span>00:00:01:114</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Manage Batch Page Accessed by either User/Admin/ Staff</h5>
+<span class='badge badge-success'>11.29.2022 12:49:32 AM</span>
+<span class='badge badge-danger'>11.29.2022 12:49:33 AM</span>
+<span class='badge badge-default'>00:00:01:114</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Validating the Manage Batch Header</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Batch button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see header text as "Manage Batch "</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log fail-bg mr-2">Fail</span>Validating the Manage Batch Footer</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see Footer text as "In total there are 21 batches."</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>Validating the Manage Batch Paginator</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see paginator text as "Showing 1 to 5 of 21 entries."</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log fail-bg mr-2">Fail</span>Verify paginator -next button on the Batch page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Enabled paginator-next button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see paginator text changed to "Showing 6 to 10 of 21 entries."</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Verify paginator -prevoius button on the Batch page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Enabled paginator -prev button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the text as "Showing 1 to 5 of 21 entries."</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="24"><span class="badge log fail-bg mr-2">Fail</span>Verify paginator -last button on the Batch page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Enabled paginator -last button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see Page number navigated to '10'</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="29"><span class="badge log fail-bg mr-2">Fail</span>Verify paginator -first button on the Batch page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Enabled paginator -first button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see Page number navigated back to '1'</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log fail-bg mr-2">Fail</span>Validate Search Feature</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Search Text box has text as "Search...".</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>Search by Batch Name</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User enters Batch Name to be searched</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then Entries for the searched BatchName are shown.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="44"><span class="badge log fail-bg mr-2">Fail</span>Search by Batch Description</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User enters Batch Description to be searched</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then Entries for the searched Batch Description are shown.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="49"><span class="badge log fail-bg mr-2">Fail</span>Search by Batch Status</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User enters Batch Status to be searched</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then Entries for the searched Batch Status are shown.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="54"><span class="badge log fail-bg mr-2">Fail</span>Search by No Of Classes</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User enters Batch No Of Classes to be searched</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then Entries for the searched Batch No Of Classes are shown.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="59"><span class="badge log fail-bg mr-2">Fail</span>Search by Program Name</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User enters Batch Program Name to be searched</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then Entries for the searched Batch Program Name are shown.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="64"><span class="badge log fail-bg mr-2">Fail</span>Verify Batch Name are displayed in Ascending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Batch Name Ascending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Batch Name displayed in Ascending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="69"><span class="badge log fail-bg mr-2">Fail</span>Verify Batch Description are displayed in Ascending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Batch Description Ascending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Batch Description displayed in Ascending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="74"><span class="badge log fail-bg mr-2">Fail</span>Verify Batch Status are displayed in Ascending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Batch Status Ascending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Batch Status displayed in Ascending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="79"><span class="badge log fail-bg mr-2">Fail</span>Verify No Of Classes are displayed in Ascending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on No Of Classes Ascending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the No Of Classes displayed in Ascending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="84"><span class="badge log fail-bg mr-2">Fail</span>Verify Program Name are displayed in Ascending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Program Name Ascending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Program Name displayed in Ascending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="89"><span class="badge log fail-bg mr-2">Fail</span>Verify Batch Name are displayed in Descending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Batch Name Descending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Batch Name displayed in Descending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="94"><span class="badge log fail-bg mr-2">Fail</span>Verify Batch Description are displayed in Descending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Batch Description Descending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Batch Description displayed in Descending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="99"><span class="badge log fail-bg mr-2">Fail</span>Verify Batch Status are displayed in Descending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Batch Status Descending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Batch Status displayed in Descending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="104"><span class="badge log fail-bg mr-2">Fail</span>Verify No Of Classes are displayed in Descending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on No Of Classes Descending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the No Of Classes displayed in Descending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="109"><span class="badge log fail-bg mr-2">Fail</span>Verify Program Name are displayed in Descending order</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Program Name Descending Arrow</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Program Name displayed in Descending order</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>Validate Number of rows in a table</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User counts number of rows as 5 in a table</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="119"><span class="badge log fail-bg mr-2">Fail</span>User Verify Added New Batch Name</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Enters newly added  Batch Name in Search</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then Entry for the newly added Batch Name is shown</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="124"><span class="badge log fail-bg mr-2">Fail</span>User Verifys Edited Details</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Enters newly edited  Batch Name in Search</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then Entry for the newly edited Batch Name is shown</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="129"><span class="badge log fail-bg mr-2">Fail</span>User Validate Deleted Batch Name</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Enters deleted Batch Name in Search</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User finds NO records</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="134"><span class="badge log fail-bg mr-2">Fail</span>User Validate Add A New Batch button</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on + A New Batch button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see a Error message "Only Admin have Access"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="139"><span class="badge log fail-bg mr-2">Fail</span>User Validate First Edit button</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Edit buttton</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see a Error message "Only Admin have Access"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="144"><span class="badge log fail-bg mr-2">Fail</span>User Validate First Delete button</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Clicks on Delete buttton</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see a Error message "Only Admin have Access"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="149"><span class="badge log fail-bg mr-2">Fail</span>User Verifies Checkbox Functionality</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User Selects First checkbox left to Batch Name</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see all the checkboxes in the Batch page get selected</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="154"><span class="badge log fail-bg mr-2">Fail</span>Verify the state of Delete button on left</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Delete button on the top left hand side as Disabled</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="158"><span class="badge log fail-bg mr-2">Fail</span>Validates Multiple Program Selection</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User selects more than one Batch Name using checkbox</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User see the Delete button on the left side as Enabled</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="163"><span class="badge log fail-bg mr-2">Fail</span>User Verify Deleted Batch Names</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given User Logged on to LMS Website</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Given User is on Manage Batch page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When User enters deleted batch Names in Search</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then User finds no results</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">34</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ValidateBatchFooter</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ValidateBatchFooter</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='6'>Validating the Manage Batch Footer</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validating the Manage Batch Footer</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@NumberofrowsinaTable</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@NumberofrowsinaTable</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>Validate Number of rows in a table</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validate Number of rows in a table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyBatchNameinDescendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyBatchNameinDescendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='89'>Verify Batch Name are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Name are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@UserAddANewBatchFunctionality</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@UserAddANewBatchFunctionality</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='134'>User Validate Add A New Batch button</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate Add A New Batch button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyBatchStatusinAscendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyBatchStatusinAscendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='74'>Verify Batch Status are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Status are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@UserValidateEditbutton</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@UserValidateEditbutton</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='139'>User Validate First Edit button</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate First Edit button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyBatchStatusinDescendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyBatchStatusinDescendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='99'>Verify Batch Status are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Status are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyBatchDescriptioninDescendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyBatchDescriptioninDescendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='94'>Verify Batch Description are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Description are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@SearchbyProgramName</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SearchbyProgramName</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='59'>Search by Program Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Program Name</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyBatchDescriptioninAscendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyBatchDescriptioninAscendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='69'>Verify Batch Description are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Description are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Verifypaginator-prevoiusbutton</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Verifypaginator-prevoiusbutton</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Verify paginator -prevoius button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -prevoius button on the Batch page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@MultipleProgramSelection</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MultipleProgramSelection</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='158'>Validates Multiple Program Selection</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validates Multiple Program Selection</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyBatchNameinAscendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyBatchNameinAscendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Verify Batch Name are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Name are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@SearchbyBatchDescription</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SearchbyBatchDescription</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>Search by Batch Description</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Batch Description</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Verifypaginator-nextbutton</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Verifypaginator-nextbutton</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Verify paginator -next button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -next button on the Batch page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Verifypaginator-lastbutton</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Verifypaginator-lastbutton</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Verify paginator -last button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -last button on the Batch page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@EvaluateNewlyAddBatchName</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@EvaluateNewlyAddBatchName</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='119'>User Verify Added New Batch Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verify Added New Batch Name</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@SearchbyBatchName</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SearchbyBatchName</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>Search by Batch Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Batch Name</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerifyProgramNameinAscendingorder</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyProgramNameinAscendingorder</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='84'>Verify Program Name are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Program Name are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='109'>Verify Program Name are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Program Name are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifySearch</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifySearch</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Validate Search Feature</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validate Search Feature</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ValidateBatchHeader</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ValidateBatchHeader</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validating the Manage Batch Header</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validating the Manage Batch Header</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@SearchbyBatchStatus</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SearchbyBatchStatus</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='49'>Search by Batch Status</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Batch Status</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyDeletedBatchNames</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyDeletedBatchNames</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='163'>User Verify Deleted Batch Names</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verify Deleted Batch Names</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyNoOfClassesinDescendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyNoOfClassesinDescendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='104'>Verify No Of Classes are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify No Of Classes are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@VerifyNoOfClassesinAscendingorder</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyNoOfClassesinAscendingorder</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>Verify No Of Classes are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify No Of Classes are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@SearchbyNoOfClasses</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SearchbyNoOfClasses</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='54'>Search by No Of Classes</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by No Of Classes</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@ValidateBatchPaginator</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ValidateBatchPaginator</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Validating the Manage Batch Paginator</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validating the Manage Batch Paginator</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@UserValidateDeletebutton</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@UserValidateDeletebutton</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='144'>User Validate First Delete button</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate First Delete button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Verifypaginator-firstbutton</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Verifypaginator-firstbutton</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Verify paginator -first button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -first button on the Batch page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@EvaluateDeletedBatchName</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@EvaluateDeletedBatchName</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='129'>User Validate Deleted Batch Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate Deleted Batch Name</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@CheckBoxFunctionality</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@CheckBoxFunctionality</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='149'>User Verifies Checkbox Functionality</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verifies Checkbox Functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@DeleteButtononLeft</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DeleteButtononLeft</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='154'>Verify the state of Delete button on left</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify the state of Delete button on left</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@EvaluateEditedBatchName</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@EvaluateEditedBatchName</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='124'>User Verifys Edited Details</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verifys Edited Details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>34</span>
+</span>
+<p class="name">@Batch</p>
+<p class="duration text-sm">34 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Batch</h4>
+<span status="fail" class='badge log badge-danger'>34 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validating the Manage Batch Header</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validating the Manage Batch Header</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='6'>Validating the Manage Batch Footer</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validating the Manage Batch Footer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Validating the Manage Batch Paginator</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validating the Manage Batch Paginator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Verify paginator -next button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -next button on the Batch page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Verify paginator -prevoius button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -prevoius button on the Batch page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Verify paginator -last button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -last button on the Batch page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Verify paginator -first button on the Batch page</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify paginator -first button on the Batch page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Validate Search Feature</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validate Search Feature</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='39'>Search by Batch Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Batch Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>Search by Batch Description</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Batch Description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='49'>Search by Batch Status</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Batch Status</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='54'>Search by No Of Classes</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by No Of Classes</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='59'>Search by Program Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Search by Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Verify Batch Name are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Name are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='69'>Verify Batch Description are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Description are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='74'>Verify Batch Status are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Status are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>Verify No Of Classes are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify No Of Classes are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='84'>Verify Program Name are displayed in Ascending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Program Name are displayed in Ascending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='89'>Verify Batch Name are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Name are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='94'>Verify Batch Description are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Description are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='99'>Verify Batch Status are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Batch Status are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='104'>Verify No Of Classes are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify No Of Classes are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='109'>Verify Program Name are displayed in Descending order</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify Program Name are displayed in Descending order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>Validate Number of rows in a table</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validate Number of rows in a table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='119'>User Verify Added New Batch Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verify Added New Batch Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='124'>User Verifys Edited Details</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verifys Edited Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='129'>User Validate Deleted Batch Name</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate Deleted Batch Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='134'>User Validate Add A New Batch button</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate Add A New Batch button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='139'>User Validate First Edit button</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate First Edit button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='144'>User Validate First Delete button</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Validate First Delete button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='149'>User Verifies Checkbox Functionality</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verifies Checkbox Functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='154'>Verify the state of Delete button on left</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Verify the state of Delete button on left</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='158'>Validates Multiple Program Selection</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.Validates Multiple Program Selection</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:49:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='163'>User Verify Deleted Batch Names</a>
+<div class="">
+<span class="badge badge-default">Manage Batch Page Accessed by either User/Admin/ Staff.User Verify Deleted Batch Names</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
