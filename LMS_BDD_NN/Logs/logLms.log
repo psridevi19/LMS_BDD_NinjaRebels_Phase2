@@ -1,0 +1,1389 @@
+[INFO ] 2022-11-28 22:36:25.675 [main] LoggerClass - info :Scenario :Validating the login url
+[INFO ] 2022-11-28 22:36:25.680 [main] LoggerClass - info :Is on browser
+[INFO ] 2022-11-28 22:36:25.681 [main] LoggerClass - info :Is on the lms Website
+[INFO ] 2022-11-28 22:36:25.683 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.683 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.759 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:36:25.760 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.760 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.762 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:25.787 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:36:25.789 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:36:25.789 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:36:25.822 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:36:25.823 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.823 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.824 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:36:25.824 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:36:25.825 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:36:25.825 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:36:25.853 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:36:25.854 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.854 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.855 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:25.855 [main] LoggerClass - info :User Clicks login button
+[INFO ] 2022-11-28 22:36:25.856 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:36:25.857 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:36:25.882 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:25.883 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.883 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.884 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:25.884 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:36:25.885 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:25.913 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:25.915 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.916 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.917 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:25.917 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:36:25.920 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:25.945 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:25.946 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.947 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.947 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:25.948 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:36:25.948 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:25.971 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:25.973 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.973 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.974 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:36:25.974 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:36:25.975 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:25.997 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:25.998 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:25.998 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:25.999 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:36:25.999 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:36:26.000 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:26.028 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:26.030 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.030 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.031 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:36:26.031 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:36:26.032 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:26.056 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:26.057 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.057 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.058 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:36:26.058 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:36:26.059 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:26.078 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:26.080 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.080 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.082 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:36:26.082 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:36:26.082 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:26.102 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:26.103 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.104 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.105 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:36:26.105 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:36:26.106 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:26.127 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:36:26.128 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.128 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.129 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:36:26.130 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:36:26.130 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:36:26.145 [main] LoggerClass - info :Scenario :Validate forgot password link
+[INFO ] 2022-11-28 22:36:26.147 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.147 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.148 [main] LoggerClass - info :User clicks forget password Link
+[INFO ] 2022-11-28 22:36:26.148 [main] LoggerClass - info :User Should see Enter Email text box
+[INFO ] 2022-11-28 22:36:26.171 [main] LoggerClass - info :Scenario :Validate forgot password with  email id
+[INFO ] 2022-11-28 22:36:26.173 [main] LoggerClass - info :User sees Enter Email text box
+[INFO ] 2022-11-28 22:36:26.174 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.174 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.175 [main] LoggerClass - info :User enters valid email
+[INFO ] 2022-11-28 22:36:26.176 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:36:26.195 [main] LoggerClass - info :Scenario :Validate verifiction code
+[INFO ] 2022-11-28 22:36:26.197 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:36:26.197 [main] LoggerClass - info :User is in verification code page
+[INFO ] 2022-11-28 22:36:26.198 [main] LoggerClass - info :User entered verfication codes
+[INFO ] 2022-11-28 22:36:26.199 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.199 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.220 [main] LoggerClass - info :Scenario :Validate click here link in verification code page
+[INFO ] 2022-11-28 22:36:26.221 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:36:26.221 [main] LoggerClass - info :User is in verification code page
+[INFO ] 2022-11-28 22:36:26.222 [main] LoggerClass - info :Verifying ResendLink in Verification page
+[INFO ] 2022-11-28 22:36:26.222 [main] LoggerClass - info :Verifying Resend link in Verification code page
+[INFO ] 2022-11-28 22:36:26.222 [main] LoggerClass - info :Verification is sent to the email
+[INFO ] 2022-11-28 22:36:26.242 [main] LoggerClass - info :Scenario :Validate Reset password with Valid password
+[INFO ] 2022-11-28 22:36:26.243 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.243 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.244 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.244 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.245 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:36:26.245 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:36:26.262 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:36:26.263 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.263 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.264 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:36:26.264 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.265 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.265 [main] LoggerClass - info :Error Message :password and retype password are mismatched
+[INFO ] 2022-11-28 22:36:26.282 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:36:26.283 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.283 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.284 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:36:26.286 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.289 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.290 [main] LoggerClass - info :Error Message :The password must contain 8 characters
+[INFO ] 2022-11-28 22:36:26.314 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:36:26.315 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.315 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.316 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:36:26.316 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.316 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.317 [main] LoggerClass - info :Error Message :The password must contain one Capital letter
+[INFO ] 2022-11-28 22:36:26.331 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:36:26.332 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.332 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.333 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:36:26.333 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.334 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.334 [main] LoggerClass - info :Error Message :The password must contain one Number
+[INFO ] 2022-11-28 22:36:26.353 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:36:26.354 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.355 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.355 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:36:26.356 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.356 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.357 [main] LoggerClass - info :Error Message :The password must contain one Special character
+[INFO ] 2022-11-28 22:36:26.374 [main] LoggerClass - info :Scenario :Validate Reset password with cancel button
+[INFO ] 2022-11-28 22:36:26.375 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.375 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:36:26.375 [main] LoggerClass - info :user clicks cancel button in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.376 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.376 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:36:26.377 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:36:26.377 [main] LoggerClass - info :User in Refreshed resetpage
+[INFO ] 2022-11-28 22:36:26.403 [main] LoggerClass - info :Scenario :Validating the Manage Program Header
+[INFO ] 2022-11-28 22:36:26.404 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.404 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.409 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.411 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.413 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.416 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:36:26.417 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.439 [main] LoggerClass - info :Scenario :Validating the Manage Program Footer
+[INFO ] 2022-11-28 22:36:26.440 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.440 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.442 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.443 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.444 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.444 [main] LoggerClass - info :Verifying Footer Text
+[INFO ] 2022-11-28 22:36:26.445 [main] LoggerClass - info :Verifying program footer after login - In total there are 9 programs.
+[INFO ] 2022-11-28 22:36:26.468 [main] LoggerClass - info :Scenario :Validating the Manage Program Paginator
+[INFO ] 2022-11-28 22:36:26.469 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.470 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.471 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.472 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.475 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.476 [main] LoggerClass - info :Verifying Paginator Text
+[INFO ] 2022-11-28 22:36:26.477 [main] LoggerClass - info :Verifying paginator Text after login - Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:36:26.501 [main] LoggerClass - info :Scenario :Verify paginator button  on the Program page
+[INFO ] 2022-11-28 22:36:26.503 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.503 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.504 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.505 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.506 [main] LoggerClass - info :Clicking Paginator Prev
+[INFO ] 2022-11-28 22:36:26.507 [main] LoggerClass - info :User sees the paginator text :Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:36:26.507 [main] LoggerClass - info :text : Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:36:26.507 [main] LoggerClass - info :Verifying paginator Text Prev - Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:36:26.529 [main] LoggerClass - info :Scenario :Verify paginator button  on the Program page
+[INFO ] 2022-11-28 22:36:26.530 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.530 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.531 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.532 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.533 [main] LoggerClass - info :Clicking Paginator Next
+[INFO ] 2022-11-28 22:36:26.533 [main] LoggerClass - info :User sees the paginator text :Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:36:26.534 [main] LoggerClass - info :text : Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:36:26.534 [main] LoggerClass - info :Verifying paginator Text Next - Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:36:26.556 [main] LoggerClass - info :Scenario :Verify paginator First Last button  on the Program page
+[INFO ] 2022-11-28 22:36:26.557 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.557 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.559 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.559 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.560 [main] LoggerClass - info :Clicking Paginator Last
+[INFO ] 2022-11-28 22:36:26.561 [main] LoggerClass - info :User sees the page number navigated to
+[INFO ] 2022-11-28 22:36:26.602 [main] LoggerClass - info :Scenario :Verify paginator First Last button  on the Program page
+[INFO ] 2022-11-28 22:36:26.603 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.603 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.604 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.604 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.605 [main] LoggerClass - info :Clicking Paginator First
+[INFO ] 2022-11-28 22:36:26.606 [main] LoggerClass - info :User sees the page number navigated to
+[INFO ] 2022-11-28 22:36:26.620 [main] LoggerClass - info :Scenario :Validate Search Feature
+[INFO ] 2022-11-28 22:36:26.621 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.621 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.622 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.622 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.623 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.623 [main] LoggerClass - info :User sees the text in the search box as : Search
+[INFO ] 2022-11-28 22:36:26.637 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:36:26.637 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.638 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.639 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.639 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.639 [main] LoggerClass - info :Search keyword entered by user :Program Name
+[INFO ] 2022-11-28 22:36:26.945 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:36:26.946 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.946 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.948 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.949 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.950 [main] LoggerClass - info :Search keyword entered by user :Program Description
+[INFO ] 2022-11-28 22:36:26.989 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:36:26.990 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:26.991 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.992 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:26.993 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:26.994 [main] LoggerClass - info :Search keyword entered by user :Program Status
+[INFO ] 2022-11-28 22:36:27.028 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:36:27.029 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:27.029 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:27.031 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:27.031 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:27.032 [main] LoggerClass - info :User clicks the Program Name for Ascending ordering
+[INFO ] 2022-11-28 22:36:29.188 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:36:29.189 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:29.189 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:29.190 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:29.190 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:29.191 [main] LoggerClass - info :User clicks the Program Description for Ascending ordering
+[INFO ] 2022-11-28 22:36:31.247 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:36:31.247 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:31.248 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:31.249 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:31.249 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:31.250 [main] LoggerClass - info :User clicks the Program Status for Ascending ordering
+[INFO ] 2022-11-28 22:36:33.280 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:36:33.280 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:33.281 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:33.281 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:33.282 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:33.282 [main] LoggerClass - info :User clicks the Program Name for Descending ordering
+[INFO ] 2022-11-28 22:36:35.341 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:36:35.341 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:35.342 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:35.343 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:35.343 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:35.344 [main] LoggerClass - info :User clicks the Program Description for Descending ordering
+[INFO ] 2022-11-28 22:36:37.370 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:36:37.371 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:37.371 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:37.372 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:37.372 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:37.372 [main] LoggerClass - info :User clicks the Program Status for Descending ordering
+[INFO ] 2022-11-28 22:36:39.436 [main] LoggerClass - info :Scenario :Validate Add A New Program button
+[INFO ] 2022-11-28 22:36:39.436 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:39.436 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.437 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:39.437 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:36:39.437 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.437 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:36:39.446 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with no details
+[INFO ] 2022-11-28 22:36:39.447 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:39.447 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.448 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:39.448 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:36:39.470 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with all details
+[INFO ] 2022-11-28 22:36:39.471 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:39.471 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.472 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:39.472 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:36:39.499 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only entering program name
+[INFO ] 2022-11-28 22:36:39.500 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:39.500 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.502 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:39.502 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:36:39.535 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only entering description
+[INFO ] 2022-11-28 22:36:39.536 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:39.536 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.537 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:39.537 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:36:39.562 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only selecting status
+[INFO ] 2022-11-28 22:36:39.563 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:39.563 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.563 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:39.564 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:36:39.585 [main] LoggerClass - info :Scenario :Validate Cancel button in Program Details window
+[INFO ] 2022-11-28 22:36:39.586 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:39.586 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:39.586 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:39.587 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:36:43.415 [main] LoggerClass - info :Scenario :Verify Added New Program Name
+[INFO ] 2022-11-28 22:36:43.415 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:43.415 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:43.417 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:43.418 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:43.418 [main] LoggerClass - info :Search text : Java
+[INFO ] 2022-11-28 22:36:43.502 [main] LoggerClass - info :Scenario :User/Staff Validate Add A New Program button
+[INFO ] 2022-11-28 22:36:43.503 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:43.503 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:43.504 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:43.505 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:43.506 [main] LoggerClass - info :User clicks a new program button
+[INFO ] 2022-11-28 22:36:43.506 [main] LoggerClass - info :User sees add new program disabled
+[INFO ] 2022-11-28 22:36:43.532 [main] LoggerClass - info :Scenario :Validate Number of rows in a table
+[INFO ] 2022-11-28 22:36:43.533 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:43.533 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:43.535 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:43.535 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:43.536 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:46.090 [main] LoggerClass - info :Number of rows displayed :5
+[INFO ] 2022-11-28 22:36:48.150 [main] LoggerClass - info :Scenario :Validates Edit button in Program Details window
+[INFO ] 2022-11-28 22:36:48.151 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:48.151 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:48.152 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:48.152 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:36:48.152 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:48.152 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:36:48.170 [main] LoggerClass - info :Scenario :Validates Edit Program Name in Program Details window
+[INFO ] 2022-11-28 22:36:48.170 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:48.170 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:48.171 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:48.171 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:36:48.172 [main] LoggerClass - info :Admin updating program name
+[INFO ] 2022-11-28 22:36:48.198 [main] LoggerClass - info :Scenario :Validates Edit Program Description in Program Details window
+[INFO ] 2022-11-28 22:36:48.198 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:48.198 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:48.199 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:48.200 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:36:48.200 [main] LoggerClass - info :Admin updating program Description
+[INFO ] 2022-11-28 22:36:48.225 [main] LoggerClass - info :Scenario :Validates Edit Program Status in Program Details window
+[INFO ] 2022-11-28 22:36:48.225 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:48.225 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:48.225 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:48.228 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:36:48.228 [main] LoggerClass - info :Admin updating program Status
+[INFO ] 2022-11-28 22:36:50.295 [main] LoggerClass - info :Scenario :Validates Cancel button in Program Details window
+[INFO ] 2022-11-28 22:36:50.295 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:50.296 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:50.296 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:50.297 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:36:52.339 [main] LoggerClass - info :Scenario :Verify Edited Program Name/Program Description
+[INFO ] 2022-11-28 22:36:52.340 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:52.340 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.341 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.341 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:52.341 [main] LoggerClass - info :Search text : Java
+[INFO ] 2022-11-28 22:36:52.362 [main] LoggerClass - info :Scenario :User/Staff Validate Edit button
+[INFO ] 2022-11-28 22:36:52.362 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:52.363 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.363 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.364 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:52.364 [main] LoggerClass - info :User clicks on edit button
+[INFO ] 2022-11-28 22:36:52.365 [main] LoggerClass - info :User sees Edit disabled
+[INFO ] 2022-11-28 22:36:52.377 [main] LoggerClass - info :Scenario :Validates Delete Functionality
+[INFO ] 2022-11-28 22:36:52.377 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:52.377 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.378 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.378 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:36:52.378 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.378 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:36:52.379 [main] LoggerClass - info :Admin can see delete confirmation :Delete Confirm
+[INFO ] 2022-11-28 22:36:52.390 [main] LoggerClass - info :Scenario :Validate Yes button in Delete Confirm window
+[INFO ] 2022-11-28 22:36:52.391 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:52.391 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.392 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.392 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:36:52.392 [main] LoggerClass - info :Admin clicks Yes button
+[INFO ] 2022-11-28 22:36:52.393 [main] LoggerClass - info :Admin sees the error message :Program Deleted Succesfully
+[INFO ] 2022-11-28 22:36:52.403 [main] LoggerClass - info :Scenario :Validate No button in Delete Confirm window
+[INFO ] 2022-11-28 22:36:52.403 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:52.403 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.405 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.405 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:36:52.406 [main] LoggerClass - info :Admin clicks No button
+[INFO ] 2022-11-28 22:36:52.406 [main] LoggerClass - info :Admin can see delete confirmation 
+[INFO ] 2022-11-28 22:36:52.432 [main] LoggerClass - info :Scenario :Validate deleted Program Name in search
+[INFO ] 2022-11-28 22:36:52.433 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:52.433 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.434 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.435 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:36:52.435 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.435 [main] LoggerClass - info :Search keyword entered by Admin :Testing
+[INFO ] 2022-11-28 22:36:52.463 [main] LoggerClass - info :Scenario :User/Staff Validate Delete button
+[INFO ] 2022-11-28 22:36:52.463 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:36:52.463 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.464 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.465 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:36:52.465 [main] LoggerClass - info :User clicks on delete button
+[INFO ] 2022-11-28 22:36:52.466 [main] LoggerClass - info :User sees Delete disabled
+[INFO ] 2022-11-28 22:36:52.482 [main] LoggerClass - info :Scenario :Validate the state of Delete button on left hand side
+[INFO ] 2022-11-28 22:36:52.483 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:52.483 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.484 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:52.484 [main] LoggerClass - info :Admin is on to LMS Website
+[INFO ] 2022-11-28 22:36:52.484 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:36:52.484 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:52.485 [main] LoggerClass - info :Validating the delete on top button
+[INFO ] 2022-11-28 22:36:54.503 [main] LoggerClass - info :Scenario :Validates Multiple Program Selection
+[INFO ] 2022-11-28 22:36:54.504 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:54.504 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:54.504 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:54.504 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:36:54.504 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:54.505 [main] LoggerClass - info :Admin selects more than one program name using check box
+[INFO ] 2022-11-28 22:36:56.526 [main] LoggerClass - info :Validating the delete on top button by selecting multiple check boxes
+[INFO ] 2022-11-28 22:36:58.581 [main] LoggerClass - info :Scenario :Validates Deletion of Multiple Records
+[INFO ] 2022-11-28 22:36:58.581 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:36:58.582 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:36:58.582 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:36:58.583 [main] LoggerClass - info :Admin selects more than one program name using check box
+[INFO ] 2022-11-28 22:37:00.614 [main] LoggerClass - info :Admin clicks delete button on top
+[INFO ] 2022-11-28 22:37:02.678 [main] LoggerClass - info :Scenario :Validate Yes button in Delete Confirm window
+[INFO ] 2022-11-28 22:37:02.679 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:37:02.679 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:37:02.680 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:37:02.680 [main] LoggerClass - info :Admin clicks Enabled delete button on top
+[INFO ] 2022-11-28 22:37:04.724 [main] LoggerClass - info :Scenario :Validate No button in Delete Confirm window
+[INFO ] 2022-11-28 22:37:04.724 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:37:04.724 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:37:04.725 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:37:04.725 [main] LoggerClass - info :Admin clicks Enabled delete button on top
+[INFO ] 2022-11-28 22:37:06.787 [main] LoggerClass - info :Scenario :Validate deleted Program Name in search
+[INFO ] 2022-11-28 22:37:06.788 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:37:06.788 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:37:06.788 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:37:06.788 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:37:06.788 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:37:06.789 [main] LoggerClass - info :Search keyword entered by Admin :Testing
+[INFO ] 2022-11-28 22:37:06.815 [main] LoggerClass - info :Scenario :Validate user deleting multiple Program Names
+[INFO ] 2022-11-28 22:37:06.815 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:37:06.815 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:37:06.816 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:37:06.817 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:37:06.817 [main] LoggerClass - info :User should see check box disabled
+[INFO ] 2022-11-28 22:37:08.863 [main] LoggerClass - info :Scenario :Validate Checkbox Functionality
+[INFO ] 2022-11-28 22:37:08.863 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:37:08.863 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:37:08.864 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:37:08.864 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:37:08.864 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:37:08.864 [main] LoggerClass - info :Admin selects first Check box
+[INFO ] 2022-11-28 22:45:24.506 [main] LoggerClass - info :Scenario :Validating the login url
+[INFO ] 2022-11-28 22:45:24.547 [main] LoggerClass - info :Is on browser
+[INFO ] 2022-11-28 22:45:24.550 [main] LoggerClass - info :Is on the lms Website
+[INFO ] 2022-11-28 22:45:24.551 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.552 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.609 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:45:24.610 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.610 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.612 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:24.612 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:45:24.614 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:45:24.614 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:45:24.650 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:45:24.654 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.654 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.655 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:45:24.656 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:45:24.657 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:45:24.657 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:45:24.692 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:45:24.692 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.693 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.693 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:24.693 [main] LoggerClass - info :User Clicks login button
+[INFO ] 2022-11-28 22:45:24.694 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:45:24.694 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:45:24.725 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:24.726 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.726 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.727 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:24.727 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:45:24.727 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:24.754 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:24.755 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.755 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.756 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:24.756 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:45:24.756 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:24.783 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:24.784 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.784 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.785 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:24.785 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:45:24.785 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:24.815 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:24.817 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:24.817 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:24.818 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:45:24.818 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:45:24.819 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:24.844 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:24.845 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.052 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.055 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:45:25.056 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:45:25.057 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:25.118 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:25.119 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.119 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.120 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:45:25.120 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:45:25.120 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:25.153 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:25.154 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.154 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.154 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:45:25.155 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:45:25.155 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:25.187 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:25.188 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.188 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.189 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:45:25.190 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:45:25.190 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:25.218 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:25.219 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.219 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.220 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:45:25.221 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:45:25.222 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:25.246 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:45:25.247 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.247 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.248 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:45:25.249 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:45:25.249 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:45:25.267 [main] LoggerClass - info :Scenario :Validate forgot password link
+[INFO ] 2022-11-28 22:45:25.269 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.270 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.270 [main] LoggerClass - info :User clicks forget password Link
+[INFO ] 2022-11-28 22:45:25.271 [main] LoggerClass - info :User Should see Enter Email text box
+[INFO ] 2022-11-28 22:45:25.299 [main] LoggerClass - info :Scenario :Validate forgot password with  email id
+[INFO ] 2022-11-28 22:45:25.301 [main] LoggerClass - info :User sees Enter Email text box
+[INFO ] 2022-11-28 22:45:25.301 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.301 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.302 [main] LoggerClass - info :User enters valid email
+[INFO ] 2022-11-28 22:45:25.302 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:45:25.320 [main] LoggerClass - info :Scenario :Validate verifiction code
+[INFO ] 2022-11-28 22:45:25.321 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:45:25.321 [main] LoggerClass - info :User is in verification code page
+[INFO ] 2022-11-28 22:45:25.322 [main] LoggerClass - info :User entered verfication codes
+[INFO ] 2022-11-28 22:45:25.322 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.322 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.340 [main] LoggerClass - info :Scenario :Validate click here link in verification code page
+[INFO ] 2022-11-28 22:45:25.340 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:45:25.340 [main] LoggerClass - info :User is in verification code page
+[INFO ] 2022-11-28 22:45:25.341 [main] LoggerClass - info :Verifying ResendLink in Verification page
+[INFO ] 2022-11-28 22:45:25.341 [main] LoggerClass - info :Verifying Resend link in Verification code page
+[INFO ] 2022-11-28 22:45:25.341 [main] LoggerClass - info :Verification is sent to the email
+[INFO ] 2022-11-28 22:45:25.358 [main] LoggerClass - info :Scenario :Validate Reset password with Valid password
+[INFO ] 2022-11-28 22:45:25.359 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.359 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.360 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.360 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.361 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:45:25.361 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:45:25.376 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:45:25.377 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.378 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.379 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:45:25.379 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.380 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.380 [main] LoggerClass - info :Error Message :password and retype password are mismatched
+[INFO ] 2022-11-28 22:45:25.396 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:45:25.396 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.396 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.397 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:45:25.397 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.397 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.398 [main] LoggerClass - info :Error Message :The password must contain 8 characters
+[INFO ] 2022-11-28 22:45:25.413 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:45:25.414 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.414 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.414 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:45:25.414 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.414 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.415 [main] LoggerClass - info :Error Message :The password must contain one Capital letter
+[INFO ] 2022-11-28 22:45:25.434 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:45:25.435 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.435 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.435 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:45:25.435 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.436 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.436 [main] LoggerClass - info :Error Message :The password must contain one Number
+[INFO ] 2022-11-28 22:45:25.455 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:45:25.456 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.456 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.457 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:45:25.457 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.457 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.458 [main] LoggerClass - info :Error Message :The password must contain one Special character
+[INFO ] 2022-11-28 22:45:25.476 [main] LoggerClass - info :Scenario :Validate Reset password with cancel button
+[INFO ] 2022-11-28 22:45:25.477 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.477 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:45:25.478 [main] LoggerClass - info :user clicks cancel button in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.478 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.478 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:45:25.478 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:45:25.479 [main] LoggerClass - info :User in Refreshed resetpage
+[INFO ] 2022-11-28 22:45:25.510 [main] LoggerClass - info :Scenario :Validating the Manage Program Header
+[INFO ] 2022-11-28 22:45:25.512 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.512 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.516 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.517 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.518 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.518 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:45:25.518 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.548 [main] LoggerClass - info :Scenario :Validating the Manage Program Footer
+[INFO ] 2022-11-28 22:45:25.549 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.549 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.551 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.552 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.552 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.553 [main] LoggerClass - info :Verifying Footer Text
+[INFO ] 2022-11-28 22:45:25.553 [main] LoggerClass - info :Verifying program footer after login - In total there are 9 programs.
+[INFO ] 2022-11-28 22:45:25.578 [main] LoggerClass - info :Scenario :Validating the Manage Program Paginator
+[INFO ] 2022-11-28 22:45:25.578 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.578 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.580 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.580 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.581 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.581 [main] LoggerClass - info :Verifying Paginator Text
+[INFO ] 2022-11-28 22:45:25.582 [main] LoggerClass - info :Verifying paginator Text after login - Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:45:25.605 [main] LoggerClass - info :Scenario :Verify paginator button  on the Program page
+[INFO ] 2022-11-28 22:45:25.605 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.606 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.607 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.607 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.608 [main] LoggerClass - info :Clicking Paginator Prev
+[INFO ] 2022-11-28 22:45:25.610 [main] LoggerClass - info :User sees the paginator text :Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:45:25.610 [main] LoggerClass - info :text : Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:45:25.610 [main] LoggerClass - info :Verifying paginator Text Prev - Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:45:25.632 [main] LoggerClass - info :Scenario :Verify paginator button  on the Program page
+[INFO ] 2022-11-28 22:45:25.633 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.633 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.634 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.634 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.635 [main] LoggerClass - info :Clicking Paginator Next
+[INFO ] 2022-11-28 22:45:25.636 [main] LoggerClass - info :User sees the paginator text :Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:45:25.636 [main] LoggerClass - info :text : Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:45:25.636 [main] LoggerClass - info :Verifying paginator Text Next - Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:45:25.652 [main] LoggerClass - info :Scenario :Verify paginator First Last button  on the Program page
+[INFO ] 2022-11-28 22:45:25.653 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.653 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.654 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.654 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.654 [main] LoggerClass - info :Clicking Paginator Last
+[INFO ] 2022-11-28 22:45:25.655 [main] LoggerClass - info :User sees the page number navigated to
+[INFO ] 2022-11-28 22:45:25.688 [main] LoggerClass - info :Scenario :Verify paginator First Last button  on the Program page
+[INFO ] 2022-11-28 22:45:25.688 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.688 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.689 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.690 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.691 [main] LoggerClass - info :Clicking Paginator First
+[INFO ] 2022-11-28 22:45:25.691 [main] LoggerClass - info :User sees the page number navigated to
+[INFO ] 2022-11-28 22:45:25.707 [main] LoggerClass - info :Scenario :Validate Search Feature
+[INFO ] 2022-11-28 22:45:25.707 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.707 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.708 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.709 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.710 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.710 [main] LoggerClass - info :User sees the text in the search box as : Search
+[INFO ] 2022-11-28 22:45:25.728 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:45:25.729 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.729 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.730 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.730 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.731 [main] LoggerClass - info :Search keyword entered by user :Program Name
+[INFO ] 2022-11-28 22:45:25.795 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:45:25.795 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.795 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.796 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.797 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.797 [main] LoggerClass - info :Search keyword entered by user :Program Description
+[INFO ] 2022-11-28 22:45:25.840 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:45:25.841 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.841 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.842 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.842 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.843 [main] LoggerClass - info :Search keyword entered by user :Program Status
+[INFO ] 2022-11-28 22:45:25.894 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:45:25.895 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:25.895 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.901 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:25.901 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:25.902 [main] LoggerClass - info :User clicks the Program Name for Ascending ordering
+[INFO ] 2022-11-28 22:45:27.960 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:45:27.960 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:27.960 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:27.961 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:27.962 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:27.962 [main] LoggerClass - info :User clicks the Program Description for Ascending ordering
+[INFO ] 2022-11-28 22:45:30.001 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:45:30.001 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:30.001 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:30.002 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:30.002 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:30.003 [main] LoggerClass - info :User clicks the Program Status for Ascending ordering
+[INFO ] 2022-11-28 22:45:32.053 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:45:32.054 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:32.054 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:32.054 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:32.054 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:32.055 [main] LoggerClass - info :User clicks the Program Name for Descending ordering
+[INFO ] 2022-11-28 22:45:34.105 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:45:34.106 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:34.107 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:34.108 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:34.109 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:34.109 [main] LoggerClass - info :User clicks the Program Description for Descending ordering
+[INFO ] 2022-11-28 22:45:36.159 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:45:36.159 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:36.160 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:36.160 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:36.161 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:36.161 [main] LoggerClass - info :User clicks the Program Status for Descending ordering
+[INFO ] 2022-11-28 22:45:38.220 [main] LoggerClass - info :Scenario :Validate Add A New Program button
+[INFO ] 2022-11-28 22:45:38.220 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:38.221 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.221 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:38.222 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:45:38.222 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.222 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:45:38.239 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with no details
+[INFO ] 2022-11-28 22:45:38.239 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:38.239 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.240 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:38.241 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:45:38.273 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with all details
+[INFO ] 2022-11-28 22:45:38.273 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:38.274 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.274 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:38.275 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:45:38.307 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only entering program name
+[INFO ] 2022-11-28 22:45:38.307 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:38.307 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.308 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:38.308 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:45:38.337 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only entering description
+[INFO ] 2022-11-28 22:45:38.338 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:38.338 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.339 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:38.339 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:45:38.362 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only selecting status
+[INFO ] 2022-11-28 22:45:38.363 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:38.363 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.364 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:38.364 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:45:38.389 [main] LoggerClass - info :Scenario :Validate Cancel button in Program Details window
+[INFO ] 2022-11-28 22:45:38.390 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:38.390 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:38.390 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:38.390 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:45:40.471 [main] LoggerClass - info :Scenario :Verify Added New Program Name
+[INFO ] 2022-11-28 22:45:40.471 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:40.471 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:40.472 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:40.473 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:40.473 [main] LoggerClass - info :Search text : Java
+[INFO ] 2022-11-28 22:45:40.507 [main] LoggerClass - info :Scenario :User/Staff Validate Add A New Program button
+[INFO ] 2022-11-28 22:45:40.507 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:40.507 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:40.509 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:40.509 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:40.510 [main] LoggerClass - info :User clicks a new program button
+[INFO ] 2022-11-28 22:45:40.510 [main] LoggerClass - info :User sees add new program disabled
+[INFO ] 2022-11-28 22:45:40.533 [main] LoggerClass - info :Scenario :Validate Number of rows in a table
+[INFO ] 2022-11-28 22:45:40.533 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:40.533 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:40.535 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:40.535 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:40.536 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:42.562 [main] LoggerClass - info :Number of rows displayed :5
+[INFO ] 2022-11-28 22:45:44.609 [main] LoggerClass - info :Scenario :Validates Edit button in Program Details window
+[INFO ] 2022-11-28 22:45:44.609 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:44.609 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:44.610 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:44.611 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:45:44.611 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:44.612 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:45:44.633 [main] LoggerClass - info :Scenario :Validates Edit Program Name in Program Details window
+[INFO ] 2022-11-28 22:45:44.633 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:44.634 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:44.635 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:44.636 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:45:44.637 [main] LoggerClass - info :Admin updating program name
+[INFO ] 2022-11-28 22:45:44.676 [main] LoggerClass - info :Scenario :Validates Edit Program Description in Program Details window
+[INFO ] 2022-11-28 22:45:44.676 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:44.677 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:44.680 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:44.681 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:45:44.682 [main] LoggerClass - info :Admin updating program Description
+[INFO ] 2022-11-28 22:45:44.709 [main] LoggerClass - info :Scenario :Validates Edit Program Status in Program Details window
+[INFO ] 2022-11-28 22:45:44.710 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:44.710 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:44.711 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:44.712 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:45:44.712 [main] LoggerClass - info :Admin updating program Status
+[INFO ] 2022-11-28 22:45:46.769 [main] LoggerClass - info :Scenario :Validates Cancel button in Program Details window
+[INFO ] 2022-11-28 22:45:46.770 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:46.770 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:46.770 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:46.770 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:45:48.851 [main] LoggerClass - info :Scenario :Verify Edited Program Name/Program Description
+[INFO ] 2022-11-28 22:45:48.851 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:48.851 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.852 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.852 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:48.852 [main] LoggerClass - info :Search text : Java
+[INFO ] 2022-11-28 22:45:48.885 [main] LoggerClass - info :Scenario :User/Staff Validate Edit button
+[INFO ] 2022-11-28 22:45:48.886 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:48.886 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.886 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.887 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:48.887 [main] LoggerClass - info :User clicks on edit button
+[INFO ] 2022-11-28 22:45:48.887 [main] LoggerClass - info :User sees Edit disabled
+[INFO ] 2022-11-28 22:45:48.899 [main] LoggerClass - info :Scenario :Validates Delete Functionality
+[INFO ] 2022-11-28 22:45:48.899 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:48.899 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:48.900 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.900 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:45:48.900 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:48.900 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:45:48.901 [main] LoggerClass - info :Admin can see delete confirmation :Delete Confirm
+[INFO ] 2022-11-28 22:45:48.917 [main] LoggerClass - info :Scenario :Validate Yes button in Delete Confirm window
+[INFO ] 2022-11-28 22:45:48.917 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:48.917 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:48.918 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.918 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:45:48.919 [main] LoggerClass - info :Admin clicks Yes button
+[INFO ] 2022-11-28 22:45:48.919 [main] LoggerClass - info :Admin sees the error message :Program Deleted Succesfully
+[INFO ] 2022-11-28 22:45:48.936 [main] LoggerClass - info :Scenario :Validate No button in Delete Confirm window
+[INFO ] 2022-11-28 22:45:48.937 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:48.937 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:48.937 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.937 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:45:48.938 [main] LoggerClass - info :Admin clicks No button
+[INFO ] 2022-11-28 22:45:48.938 [main] LoggerClass - info :Admin can see delete confirmation 
+[INFO ] 2022-11-28 22:45:48.970 [main] LoggerClass - info :Scenario :Validate deleted Program Name in search
+[INFO ] 2022-11-28 22:45:48.970 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:48.970 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:48.971 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:48.971 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:45:48.971 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:48.972 [main] LoggerClass - info :Search keyword entered by Admin :Testing
+[INFO ] 2022-11-28 22:45:49.006 [main] LoggerClass - info :Scenario :User/Staff Validate Delete button
+[INFO ] 2022-11-28 22:45:49.007 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:45:49.007 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:49.007 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:49.008 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:45:49.008 [main] LoggerClass - info :User clicks on delete button
+[INFO ] 2022-11-28 22:45:49.008 [main] LoggerClass - info :User sees Delete disabled
+[INFO ] 2022-11-28 22:45:49.028 [main] LoggerClass - info :Scenario :Validate the state of Delete button on left hand side
+[INFO ] 2022-11-28 22:45:49.029 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:49.029 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:49.030 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:49.030 [main] LoggerClass - info :Admin is on to LMS Website
+[INFO ] 2022-11-28 22:45:49.030 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:45:49.031 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:49.031 [main] LoggerClass - info :Validating the delete on top button
+[INFO ] 2022-11-28 22:45:51.079 [main] LoggerClass - info :Scenario :Validates Multiple Program Selection
+[INFO ] 2022-11-28 22:45:51.080 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:51.080 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:51.080 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:51.081 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:45:51.081 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:51.081 [main] LoggerClass - info :Admin selects more than one program name using check box
+[INFO ] 2022-11-28 22:45:53.123 [main] LoggerClass - info :Validating the delete on top button by selecting multiple check boxes
+[INFO ] 2022-11-28 22:45:55.140 [main] LoggerClass - info :Scenario :Validates Deletion of Multiple Records
+[INFO ] 2022-11-28 22:45:55.141 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:55.141 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:55.141 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:55.142 [main] LoggerClass - info :Admin selects more than one program name using check box
+[INFO ] 2022-11-28 22:45:57.154 [main] LoggerClass - info :Admin clicks delete button on top
+[INFO ] 2022-11-28 22:45:59.186 [main] LoggerClass - info :Scenario :Validate Yes button in Delete Confirm window
+[INFO ] 2022-11-28 22:45:59.186 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:45:59.186 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:45:59.187 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:45:59.188 [main] LoggerClass - info :Admin clicks Enabled delete button on top
+[INFO ] 2022-11-28 22:46:01.260 [main] LoggerClass - info :Scenario :Validate No button in Delete Confirm window
+[INFO ] 2022-11-28 22:46:01.260 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:46:01.260 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:01.261 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:01.262 [main] LoggerClass - info :Admin clicks Enabled delete button on top
+[INFO ] 2022-11-28 22:46:03.278 [main] LoggerClass - info :Scenario :Validate deleted Program Name in search
+[INFO ] 2022-11-28 22:46:03.279 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:46:03.279 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:03.279 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:03.279 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:46:03.279 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:03.279 [main] LoggerClass - info :Search keyword entered by Admin :Testing
+[INFO ] 2022-11-28 22:46:03.302 [main] LoggerClass - info :Scenario :Validate user deleting multiple Program Names
+[INFO ] 2022-11-28 22:46:03.302 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:46:03.302 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:03.303 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:03.303 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:03.303 [main] LoggerClass - info :User should see check box disabled
+[INFO ] 2022-11-28 22:46:05.354 [main] LoggerClass - info :Scenario :Validate Checkbox Functionality
+[INFO ] 2022-11-28 22:46:05.355 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:05.355 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:05.355 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:05.355 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:46:05.355 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:05.355 [main] LoggerClass - info :Admin selects first Check box
+[INFO ] 2022-11-28 22:46:49.456 [main] LoggerClass - info :Scenario :Validating the login url
+[INFO ] 2022-11-28 22:46:49.463 [main] LoggerClass - info :Is on browser
+[INFO ] 2022-11-28 22:46:49.465 [main] LoggerClass - info :Is on the lms Website
+[INFO ] 2022-11-28 22:46:49.466 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.466 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.534 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:46:49.536 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.536 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.539 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:49.539 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:46:49.541 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:46:49.542 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:46:49.595 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:46:49.596 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.626 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.628 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:46:49.628 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:46:49.629 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:46:49.629 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:46:49.682 [main] LoggerClass - info :Scenario :Validating login functionality with valid credentials
+[INFO ] 2022-11-28 22:46:49.685 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.687 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.689 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:49.690 [main] LoggerClass - info :User Clicks login button
+[INFO ] 2022-11-28 22:46:49.691 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:46:49.691 [main] LoggerClass - info :User sees login header
+[INFO ] 2022-11-28 22:46:49.771 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:49.773 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.774 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.776 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:49.776 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:46:49.777 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:49.826 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:49.827 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.827 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.828 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:49.828 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:46:49.829 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:49.873 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:49.874 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.874 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.875 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:46:49.875 [main] LoggerClass - info :Admin Clicks login button
+[INFO ] 2022-11-28 22:46:49.876 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:49.932 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:49.933 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.934 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.935 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:46:49.935 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:46:49.937 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:49.983 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:49.984 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:49.987 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:49.988 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:46:49.989 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:46:49.990 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:50.026 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:50.027 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.027 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.028 [main] LoggerClass - info :Suucessful Login As Staff
+[INFO ] 2022-11-28 22:46:50.028 [main] LoggerClass - info :Staff Clicks login button
+[INFO ] 2022-11-28 22:46:50.029 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:50.066 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:50.067 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.068 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.069 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:46:50.069 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:46:50.070 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:50.104 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:50.105 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.106 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.107 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:46:50.107 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:46:50.108 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:50.148 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:50.149 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.149 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.149 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:46:50.149 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:46:50.152 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:50.212 [main] LoggerClass - info :Scenario :Validating login functionality with invalid credentials
+[INFO ] 2022-11-28 22:46:50.213 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.213 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.214 [main] LoggerClass - info :Suucessful Login As user
+[INFO ] 2022-11-28 22:46:50.215 [main] LoggerClass - info :user Clicks login button
+[INFO ] 2022-11-28 22:46:50.216 [main] LoggerClass - info : Verifying Error Message 
+[INFO ] 2022-11-28 22:46:50.255 [main] LoggerClass - info :Scenario :Validate forgot password link
+[INFO ] 2022-11-28 22:46:50.258 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.259 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.260 [main] LoggerClass - info :User clicks forget password Link
+[INFO ] 2022-11-28 22:46:50.261 [main] LoggerClass - info :User Should see Enter Email text box
+[INFO ] 2022-11-28 22:46:50.297 [main] LoggerClass - info :Scenario :Validate forgot password with  email id
+[INFO ] 2022-11-28 22:46:50.298 [main] LoggerClass - info :User sees Enter Email text box
+[INFO ] 2022-11-28 22:46:50.299 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.299 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.300 [main] LoggerClass - info :User enters valid email
+[INFO ] 2022-11-28 22:46:50.301 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:46:50.349 [main] LoggerClass - info :Scenario :Validate verifiction code
+[INFO ] 2022-11-28 22:46:50.351 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:46:50.351 [main] LoggerClass - info :User is in verification code page
+[INFO ] 2022-11-28 22:46:50.353 [main] LoggerClass - info :User entered verfication codes
+[INFO ] 2022-11-28 22:46:50.354 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.355 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.429 [main] LoggerClass - info :Scenario :Validate click here link in verification code page
+[INFO ] 2022-11-28 22:46:50.435 [main] LoggerClass - info :Verifying Verification code page header
+[INFO ] 2022-11-28 22:46:50.435 [main] LoggerClass - info :User is in verification code page
+[INFO ] 2022-11-28 22:46:50.436 [main] LoggerClass - info :Verifying ResendLink in Verification page
+[INFO ] 2022-11-28 22:46:50.438 [main] LoggerClass - info :Verifying Resend link in Verification code page
+[INFO ] 2022-11-28 22:46:50.440 [main] LoggerClass - info :Verification is sent to the email
+[INFO ] 2022-11-28 22:46:50.503 [main] LoggerClass - info :Scenario :Validate Reset password with Valid password
+[INFO ] 2022-11-28 22:46:50.504 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.505 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.506 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.508 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.509 [main] LoggerClass - info :User is in the login page
+[INFO ] 2022-11-28 22:46:50.509 [main] LoggerClass - info :Verifying Login header
+[INFO ] 2022-11-28 22:46:50.559 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:46:50.560 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.561 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.564 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:46:50.564 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.565 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.566 [main] LoggerClass - info :Error Message :password and retype password are mismatched
+[INFO ] 2022-11-28 22:46:50.607 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:46:50.608 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.610 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.612 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:46:50.613 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.614 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.614 [main] LoggerClass - info :Error Message :The password must contain 8 characters
+[INFO ] 2022-11-28 22:46:50.650 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:46:50.652 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.652 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.653 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:46:50.653 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.654 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.654 [main] LoggerClass - info :Error Message :The password must contain one Capital letter
+[INFO ] 2022-11-28 22:46:50.686 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:46:50.688 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.688 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.689 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:46:50.689 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.689 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.691 [main] LoggerClass - info :Error Message :The password must contain one Number
+[INFO ] 2022-11-28 22:46:50.731 [main] LoggerClass - info :Scenario :Validate Reset password with invalid password
+[INFO ] 2022-11-28 22:46:50.732 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.733 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.734 [main] LoggerClass - info :Verifying invalid reset passwords
+[INFO ] 2022-11-28 22:46:50.734 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.734 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.736 [main] LoggerClass - info :Error Message :The password must contain one Special character
+[INFO ] 2022-11-28 22:46:50.784 [main] LoggerClass - info :Scenario :Validate Reset password with cancel button
+[INFO ] 2022-11-28 22:46:50.790 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.792 [main] LoggerClass - info :User in reset password page
+[INFO ] 2022-11-28 22:46:50.793 [main] LoggerClass - info :user clicks cancel button in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.798 [main] LoggerClass - info :Entering new password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.808 [main] LoggerClass - info :Entering Retype password in Reset Password Page
+[INFO ] 2022-11-28 22:46:50.810 [main] LoggerClass - info :Verifying Reset password page header
+[INFO ] 2022-11-28 22:46:50.810 [main] LoggerClass - info :User in Refreshed resetpage
+[INFO ] 2022-11-28 22:46:50.880 [main] LoggerClass - info :Scenario :Validating the Manage Program Header
+[INFO ] 2022-11-28 22:46:50.881 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:50.882 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:50.894 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:50.896 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:50.898 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:50.898 [main] LoggerClass - info :Verifying header after login
+[INFO ] 2022-11-28 22:46:50.899 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:50.947 [main] LoggerClass - info :Scenario :Validating the Manage Program Footer
+[INFO ] 2022-11-28 22:46:50.948 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:50.948 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:50.956 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:50.964 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:50.972 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:50.977 [main] LoggerClass - info :Verifying Footer Text
+[INFO ] 2022-11-28 22:46:50.979 [main] LoggerClass - info :Verifying program footer after login - In total there are 9 programs.
+[INFO ] 2022-11-28 22:46:51.051 [main] LoggerClass - info :Scenario :Validating the Manage Program Paginator
+[INFO ] 2022-11-28 22:46:51.052 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.053 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.056 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.060 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.061 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.062 [main] LoggerClass - info :Verifying Paginator Text
+[INFO ] 2022-11-28 22:46:51.063 [main] LoggerClass - info :Verifying paginator Text after login - Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:46:51.134 [main] LoggerClass - info :Scenario :Verify paginator button  on the Program page
+[INFO ] 2022-11-28 22:46:51.135 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.135 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.138 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.140 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.142 [main] LoggerClass - info :Clicking Paginator Prev
+[INFO ] 2022-11-28 22:46:51.144 [main] LoggerClass - info :User sees the paginator text :Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:46:51.145 [main] LoggerClass - info :text : Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:46:51.146 [main] LoggerClass - info :Verifying paginator Text Prev - Showing 1 to 5 of 9 entries
+[INFO ] 2022-11-28 22:46:51.213 [main] LoggerClass - info :Scenario :Verify paginator button  on the Program page
+[INFO ] 2022-11-28 22:46:51.225 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.230 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.245 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.261 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.266 [main] LoggerClass - info :Clicking Paginator Next
+[INFO ] 2022-11-28 22:46:51.269 [main] LoggerClass - info :User sees the paginator text :Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:46:51.269 [main] LoggerClass - info :text : Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:46:51.270 [main] LoggerClass - info :Verifying paginator Text Next - Showing 6 to 9 of 9 entries
+[INFO ] 2022-11-28 22:46:51.478 [main] LoggerClass - info :Scenario :Verify paginator First Last button  on the Program page
+[INFO ] 2022-11-28 22:46:51.479 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.480 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.481 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.482 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.482 [main] LoggerClass - info :Clicking Paginator Last
+[INFO ] 2022-11-28 22:46:51.484 [main] LoggerClass - info :User sees the page number navigated to
+[INFO ] 2022-11-28 22:46:51.581 [main] LoggerClass - info :Scenario :Verify paginator First Last button  on the Program page
+[INFO ] 2022-11-28 22:46:51.582 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.582 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.584 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.585 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.585 [main] LoggerClass - info :Clicking Paginator First
+[INFO ] 2022-11-28 22:46:51.586 [main] LoggerClass - info :User sees the page number navigated to
+[INFO ] 2022-11-28 22:46:51.620 [main] LoggerClass - info :Scenario :Validate Search Feature
+[INFO ] 2022-11-28 22:46:51.620 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.621 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.622 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.623 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.624 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.625 [main] LoggerClass - info :User sees the text in the search box as : Search
+[INFO ] 2022-11-28 22:46:51.668 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:46:51.669 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.670 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.675 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.677 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.680 [main] LoggerClass - info :Search keyword entered by user :Program Name
+[INFO ] 2022-11-28 22:46:51.803 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:46:51.804 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.804 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.806 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.807 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.808 [main] LoggerClass - info :Search keyword entered by user :Program Description
+[INFO ] 2022-11-28 22:46:51.876 [main] LoggerClass - info :Scenario :Validate Search by  Program Name,Program Description,Program Status
+[INFO ] 2022-11-28 22:46:51.877 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.877 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.878 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.879 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.880 [main] LoggerClass - info :Search keyword entered by user :Program Status
+[INFO ] 2022-11-28 22:46:51.936 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:46:51.936 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:51.937 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.940 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:51.941 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:51.942 [main] LoggerClass - info :User clicks the Program Name for Ascending ordering
+[INFO ] 2022-11-28 22:46:54.006 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:46:54.007 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:54.007 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:54.008 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:54.008 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:54.008 [main] LoggerClass - info :User clicks the Program Description for Ascending ordering
+[INFO ] 2022-11-28 22:46:56.096 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:46:56.097 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:46:56.097 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:56.098 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:46:56.099 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:46:56.099 [main] LoggerClass - info :User clicks the Program Status for Ascending ordering
+[INFO ] 2022-11-28 22:47:22.926 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:47:22.926 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:22.926 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:22.927 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:22.928 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:22.928 [main] LoggerClass - info :User clicks the Program Name for Descending ordering
+[INFO ] 2022-11-28 22:47:22.951 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:47:22.952 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:22.952 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:22.953 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:22.954 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:22.955 [main] LoggerClass - info :User clicks the Program Description for Descending ordering
+[INFO ] 2022-11-28 22:47:22.984 [main] LoggerClass - info :Scenario :Validate Ascending order and descending order for columns
+[INFO ] 2022-11-28 22:47:22.984 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:22.985 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:22.986 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:22.987 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:22.987 [main] LoggerClass - info :User clicks the Program Status for Descending ordering
+[INFO ] 2022-11-28 22:47:23.017 [main] LoggerClass - info :Scenario :Validate Add A New Program button
+[INFO ] 2022-11-28 22:47:23.017 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.018 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.018 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.019 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.019 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.020 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:47:23.039 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with no details
+[INFO ] 2022-11-28 22:47:23.042 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.042 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.043 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.044 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:47:23.068 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with all details
+[INFO ] 2022-11-28 22:47:23.069 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.069 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.069 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.070 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:47:23.094 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only entering program name
+[INFO ] 2022-11-28 22:47:23.095 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.095 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.096 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.096 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:47:23.115 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only entering description
+[INFO ] 2022-11-28 22:47:23.116 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.116 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.116 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.117 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:47:23.134 [main] LoggerClass - info :Scenario :Validate Add A New Program functionality with only selecting status
+[INFO ] 2022-11-28 22:47:23.134 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.134 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.135 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.135 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:47:23.151 [main] LoggerClass - info :Scenario :Validate Cancel button in Program Details window
+[INFO ] 2022-11-28 22:47:23.151 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.151 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.152 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.152 [main] LoggerClass - info :Admin clicks a new program button
+[INFO ] 2022-11-28 22:47:23.197 [main] LoggerClass - info :Scenario :Verify Added New Program Name
+[INFO ] 2022-11-28 22:47:23.197 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:23.197 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.198 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.199 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:23.200 [main] LoggerClass - info :Search text : Java
+[INFO ] 2022-11-28 22:47:23.243 [main] LoggerClass - info :Scenario :User/Staff Validate Add A New Program button
+[INFO ] 2022-11-28 22:47:23.244 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:23.244 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.245 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.245 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:23.246 [main] LoggerClass - info :User clicks a new program button
+[INFO ] 2022-11-28 22:47:23.247 [main] LoggerClass - info :User sees add new program disabled
+[INFO ] 2022-11-28 22:47:23.274 [main] LoggerClass - info :Scenario :Validate Number of rows in a table
+[INFO ] 2022-11-28 22:47:23.274 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:23.275 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.276 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.276 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.277 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:23.295 [main] LoggerClass - info :Scenario :Validates Edit button in Program Details window
+[INFO ] 2022-11-28 22:47:23.296 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.296 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.297 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.298 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.298 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.298 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:47:23.310 [main] LoggerClass - info :Scenario :Validates Edit Program Name in Program Details window
+[INFO ] 2022-11-28 22:47:23.311 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.311 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.312 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.313 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:47:23.314 [main] LoggerClass - info :Admin updating program name
+[INFO ] 2022-11-28 22:47:23.339 [main] LoggerClass - info :Scenario :Validates Edit Program Description in Program Details window
+[INFO ] 2022-11-28 22:47:23.339 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.339 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.340 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.341 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:47:23.342 [main] LoggerClass - info :Admin updating program Description
+[INFO ] 2022-11-28 22:47:23.365 [main] LoggerClass - info :Scenario :Validates Edit Program Status in Program Details window
+[INFO ] 2022-11-28 22:47:23.366 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.366 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.367 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.368 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:47:23.368 [main] LoggerClass - info :Admin updating program Status
+[INFO ] 2022-11-28 22:47:23.391 [main] LoggerClass - info :Scenario :Validates Cancel button in Program Details window
+[INFO ] 2022-11-28 22:47:23.391 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.392 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.393 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.394 [main] LoggerClass - info :Admin clicks on edit button
+[INFO ] 2022-11-28 22:47:23.416 [main] LoggerClass - info :Scenario :Verify Edited Program Name/Program Description
+[INFO ] 2022-11-28 22:47:23.416 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:23.416 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.417 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.418 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:23.418 [main] LoggerClass - info :Search text : Java
+[INFO ] 2022-11-28 22:47:23.442 [main] LoggerClass - info :Scenario :User/Staff Validate Edit button
+[INFO ] 2022-11-28 22:47:23.442 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:23.442 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.443 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.444 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:23.444 [main] LoggerClass - info :User clicks on edit button
+[INFO ] 2022-11-28 22:47:23.444 [main] LoggerClass - info :User sees Edit disabled
+[INFO ] 2022-11-28 22:47:23.457 [main] LoggerClass - info :Scenario :Validates Delete Functionality
+[INFO ] 2022-11-28 22:47:23.458 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.458 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.459 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.459 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.459 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.460 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:47:23.460 [main] LoggerClass - info :Admin can see delete confirmation :Delete Confirm
+[INFO ] 2022-11-28 22:47:23.472 [main] LoggerClass - info :Scenario :Validate Yes button in Delete Confirm window
+[INFO ] 2022-11-28 22:47:23.472 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.472 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.473 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.474 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:47:23.474 [main] LoggerClass - info :Admin clicks Yes button
+[INFO ] 2022-11-28 22:47:23.475 [main] LoggerClass - info :Admin sees the error message :Program Deleted Succesfully
+[INFO ] 2022-11-28 22:47:23.490 [main] LoggerClass - info :Scenario :Validate No button in Delete Confirm window
+[INFO ] 2022-11-28 22:47:23.490 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.490 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.491 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.492 [main] LoggerClass - info :Admin clicks on delete button
+[INFO ] 2022-11-28 22:47:23.492 [main] LoggerClass - info :Admin clicks No button
+[INFO ] 2022-11-28 22:47:23.492 [main] LoggerClass - info :Admin can see delete confirmation 
+[INFO ] 2022-11-28 22:47:23.510 [main] LoggerClass - info :Scenario :Validate deleted Program Name in search
+[INFO ] 2022-11-28 22:47:23.511 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.511 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.512 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.513 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.513 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.513 [main] LoggerClass - info :Search keyword entered by Admin :Testing
+[INFO ] 2022-11-28 22:47:23.539 [main] LoggerClass - info :Scenario :User/Staff Validate Delete button
+[INFO ] 2022-11-28 22:47:23.539 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:23.539 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.540 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.541 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:23.541 [main] LoggerClass - info :User clicks on delete button
+[INFO ] 2022-11-28 22:47:23.541 [main] LoggerClass - info :User sees Delete disabled
+[INFO ] 2022-11-28 22:47:23.556 [main] LoggerClass - info :Scenario :Validate the state of Delete button on left hand side
+[INFO ] 2022-11-28 22:47:23.557 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.557 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.558 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.558 [main] LoggerClass - info :Admin is on to LMS Website
+[INFO ] 2022-11-28 22:47:23.559 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.559 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.559 [main] LoggerClass - info :Validating the delete on top button
+[INFO ] 2022-11-28 22:47:23.583 [main] LoggerClass - info :Scenario :Validates Multiple Program Selection
+[INFO ] 2022-11-28 22:47:23.584 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.584 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.585 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.585 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.585 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.586 [main] LoggerClass - info :Admin selects more than one program name using check box
+[INFO ] 2022-11-28 22:47:23.606 [main] LoggerClass - info :Scenario :Validates Deletion of Multiple Records
+[INFO ] 2022-11-28 22:47:23.607 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.607 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.607 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.608 [main] LoggerClass - info :Admin selects more than one program name using check box
+[INFO ] 2022-11-28 22:47:23.630 [main] LoggerClass - info :Scenario :Validate Yes button in Delete Confirm window
+[INFO ] 2022-11-28 22:47:23.630 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.630 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.631 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.632 [main] LoggerClass - info :Admin clicks Enabled delete button on top
+[INFO ] 2022-11-28 22:47:23.657 [main] LoggerClass - info :Scenario :Validate No button in Delete Confirm window
+[INFO ] 2022-11-28 22:47:23.657 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.657 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.658 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.658 [main] LoggerClass - info :Admin clicks Enabled delete button on top
+[INFO ] 2022-11-28 22:47:23.683 [main] LoggerClass - info :Scenario :Validate deleted Program Name in search
+[INFO ] 2022-11-28 22:47:23.684 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.684 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.685 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.685 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.686 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.686 [main] LoggerClass - info :Search keyword entered by Admin :Testing
+[INFO ] 2022-11-28 22:47:23.710 [main] LoggerClass - info :Scenario :Validate user deleting multiple Program Names
+[INFO ] 2022-11-28 22:47:23.710 [main] LoggerClass - info :**********loginAsAdminBefore*********
+[INFO ] 2022-11-28 22:47:23.710 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.711 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.712 [main] LoggerClass - info :User is in manage program page
+[INFO ] 2022-11-28 22:47:23.713 [main] LoggerClass - info :User should see check box disabled
+[INFO ] 2022-11-28 22:47:23.739 [main] LoggerClass - info :Scenario :Validate Checkbox Functionality
+[INFO ] 2022-11-28 22:47:23.739 [main] LoggerClass - info :**********loginAsUserBefore*********
+[INFO ] 2022-11-28 22:47:23.739 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.740 [main] LoggerClass - info :Suucessful Login As User
+[INFO ] 2022-11-28 22:47:23.740 [main] LoggerClass - info :Admin is on Manage program Page
+[INFO ] 2022-11-28 22:47:23.741 [main] LoggerClass - info :Suucessful Login As Admin
+[INFO ] 2022-11-28 22:47:23.741 [main] LoggerClass - info :Admin selects first Check box
